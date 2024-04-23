@@ -1,30 +1,27 @@
+const root = "/WSOA3028_2562617"
 const menuItems = [
-    {name: "Home", href: "/index.html"},
-    {name: "Blog Posts", href: "../blogs/index.html"},
-    {name: "Design Process", href: "../design/index.html"},
-    {name: "Essays", href: "../essays/index.html"},
-    {name: "Portfolio", href: "../portfolio/index.html"},
-];
+    { name: "Home", href: root + "/index.html" },
+    { name: "Blog Posts", href: `${root}/blogs/index.html` },
+    { name: "Design Process", href: `${root}/design/index.html`},
+    { name: "Essays", href: `${root}/essays/index.html` },
+    { name: "Portfolio", href: `${root}/portfolio/index.html`},
+]
 
 export function initialise (currentPage) {
-const nav = document.querySelector ("header > nav");
-const ul = document.createElement ("ul");
+const nav = document.querySelector ("header > nav")
+const ul = document.createElement ("ul")
 
 for (let menuItem of menuItems) {
-    const li = document.createElement ("li");
-    const a = document.createElement ("a");
-    a.innerText = menuItem.name; 
-    a.setAttribute ("href", menuItem.href);
-
-    if (currentPage === menuItem.name) {
-        li.innerText = menuItem.name;
-    } 
-    else {
-        li.appendChild (a);
+    const li = document.createElement("li")
+        if(currentPage !=menuItem.name){
+            const a = document.createElement("a")
+            a.innerText = menuItem.name
+            a.setAttribute("href", menuItem.href)
+            li.appendChild(a)
+        } else { li.innerText=menuItem.name }
+        ul.appendChild(li)
     }
-    ul.appendChild (li);
-} 
-nav.appendChild (ul);
+    nav.appendChild(ul)
 }
 
 
