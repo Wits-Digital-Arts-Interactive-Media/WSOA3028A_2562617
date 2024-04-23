@@ -7,27 +7,29 @@ const menuItems =
     {name: "Portfolio", href: "/portfolio/index.html"},
 ];
 
-export function initialise (currentPage)
+export function initialise(currentPage) 
 {
-const nav = document.querySelector ("header > nav");
-const ul = document.createElement ("ul");
+    const nav = document.querySelector("header > nav");
+    const ul = document.createElement("ul");
 
-for (let menuItem of menuItems)
-{
-    const li = document.createElement ("li");
-    const a = document.createElement ("a")
-
-    a.innerText = menuItem.name;
-    a.setAttribute ("href", menuItem.href);
-    li.appendChild (a);
-
-    if (currentPage === menuItem.name)
+    for (let menuItem of menuItems) 
     {
-        li.classList.add("current-page");
+        const li = document.createElement("li");
+        const a = document.createElement("a");
+        if (currentPage != menuItem.name) 
+        {
+            a.innerText = menuItem.name;
+            a.setAttribute("href", menuItem.href);
+        } else 
+        
+        {
+            a.innerText = menuItem.name;
+            a.setAttribute("href", currentPage === "Home" ? "/index.html" : `/${currentPage.toLowerCase()}/index.html`);
+        }
+        li.appendChild(a);
+        ul.appendChild(li);
     }
-
-    ul.appendChild (li);
-} 
-nav.appendChild (ul);
+    nav.appendChild(ul);
 }
+
 
