@@ -1,10 +1,11 @@
-const root = "/WSOA3028_2562617"
+const root = "/WSOA3028A_2562617"
+
 const menuItems = [
     { name: "Home", href: root + "/index.html" },
     { name: "Blog Posts", href: `${root}/blogs/index.html` },
-    { name: "Design Process", href: `${root}/design/index.html`},
+    { name: "Design Process", href: `${root}/design/index.html` },
     { name: "Essays", href: `${root}/essays/index.html` },
-    { name: "Portfolio", href: `${root}/portfolio/index.html`},
+    { name: "Portfolio", href: `${root}/portfolio/index.html` },
 ]
 
 export function initialise (currentPage) {
@@ -23,5 +24,6 @@ for (let menuItem of menuItems) {
     }
     nav.appendChild(ul)
 }
+
 
 
