@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const h1 = document.querySelector("h1");
 
     button.addEventListener("click", function() {
-        h1.innerText = "Welcome to my website";
+        h1.innerText = "WELCOME TO MY WEBSITE!";
     });
 });
 
@@ -28,111 +28,111 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("week1-blog1").addEventListener("click", function() {
+    document.getElementById("week1-Blog1").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/blogs/index.html";
     });
 
-    document.getElementById("week1-blog2").addEventListener("click", function() {
+    document.getElementById("week1-Blog2").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/blogs/week2.html";
     });
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("week2-blog1").addEventListener("click", function() {
+    document.getElementById("week2-Blog1").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/blogs/week1.html";
     });
 
-    document.getElementById("week2-blog2").addEventListener("click", function() {
+    document.getElementById("week2-Blog2").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/blogs/week3.html";
     });
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("week3-blog1").addEventListener("click", function() {
+    document.getElementById("week3-Blog1").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/blogs/week2.html";
     });
 
-    document.getElementById("week3-blog2").addEventListener("click", function() {
+    document.getElementById("week3-Blog2").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/blogs/week4.html";
     });
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("week4-blog1").addEventListener("click", function() {
+    document.getElementById("week4-Blog1").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/blogs/week3.html";
     });
 
-    document.getElementById("week4-blog2").addEventListener("click", function() {
+    document.getElementById("week4-Blog2").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/blogs/week6.html";
     });
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("week6-blog1").addEventListener("click", function() {
+    document.getElementById("week6-Blog1").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/blogs/week4.html";
     });
 
-    document.getElementById("week6-blog2").addEventListener("click", function() {
+    document.getElementById("week6-Blog2").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/blogs/week8.html";
     });
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("week8-blog1").addEventListener("click", function() {
+    document.getElementById("week8-Blog1").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/blogs/week6.html";
     });
 
-    document.getElementById("week8-blog2").addEventListener("click", function() {
+    document.getElementById("week8-Blog2").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/blogs/week9.html";
     });
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("week9-blog1").addEventListener("click", function() {
+    document.getElementById("week9-Blog1").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/blogs/week8.html";
     });
 
-    document.getElementById("week9-blog2").addEventListener("click", function() {
+    document.getElementById("week9-Blog2").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/blogs/week10.html";
     });
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("week10-blog1").addEventListener("click", function() {
+    document.getElementById("week10-Blog1").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/blogs/week9.html";
     });
 
-    document.getElementById("week10-blog2").addEventListener("click", function() {
+    document.getElementById("week10-Blog2").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/blogs/week11.html";
     });
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("week11-blog1").addEventListener("click", function() {
+    document.getElementById("week11-Blog1").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/blogs/week10.html";
     });
 
-    document.getElementById("week11-blog2").addEventListener("click", function() {
+    document.getElementById("week11-Blog2").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/blogs/week12.html";
     });
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("week12-blog1").addEventListener("click", function() {
+    document.getElementById("week12-Blog1").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/blogs/week11.html";
     });
 
-    document.getElementById("week12-blog2").addEventListener("click", function() {
+    document.getElementById("week12-Blog2").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/blogs/week13.html";
     });
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("week13-blog1").addEventListener("click", function() {
+    document.getElementById("week13-Blog1").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/blogs/week12.html";
     });
 
-    document.getElementById("week13-blog2").addEventListener("click", function() {
+    document.getElementById("week13-Blog2").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/design/index.html";
     });
 });
@@ -169,11 +169,11 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("style-guide1").addEventListener("click", function() {
+    document.getElementById("styleGuide1").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/design/ixd.html";
     });
 
-    document.getElementById("style-guide2").addEventListener("click", function() {
+    document.getElementById("styleGuide2").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/essays/index.html";
     });
 });
