@@ -14,3 +14,21 @@ alert("Click on the preferred image to open the essay.");
 function portfolioHome() {
 alert("Click on the preferred image to find out more about me in my Profile and Portfolio sections.");
 }
+
+//Animate images when I hover over them
+const images = document.querySelectorAll(".image");
+
+images.forEach(image => {
+    image.addEventListener("mouseenter", function() {
+        this.style.transform = "scale(1.1)";
+        this.style.transition = "transform 0.2s";
+    });
+
+    image.addEventListener("mouseleave", function() {
+        this.style.transform = "scale(1)";
+        this.style.transition = "transform 0.2s";
+    });
+});
+
+
+  

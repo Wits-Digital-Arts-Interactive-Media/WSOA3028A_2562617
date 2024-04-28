@@ -226,16 +226,36 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     document.getElementById("profile2").addEventListener("click", function() {
-    window.location.href = "/WSOA3028A_2562617/portfolio/portfolio.html";
+    window.location.href = "/WSOA3028A_2562617/portfolio/portfolio1.html";
     });
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("portfolio1").addEventListener("click", function() {
+    document.getElementById("portfolio1-1").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/portfolio/profile.html";
     });
 
-    document.getElementById("portfolio2").addEventListener("click", function() {
+    document.getElementById("portfolio1-2").addEventListener("click", function() {
+    window.location.href = "/WSOA3028A_2562617/portfolio/portfolio2.html";
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("portfolio2-1").addEventListener("click", function() {
+    window.location.href = "/WSOA3028A_2562617/portfolio/portfolio1.html";
+    });
+
+    document.getElementById("portfolio2-2").addEventListener("click", function() {
+    window.location.href = "/WSOA3028A_2562617/portfolio/portfolio3.html";
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("portfolio3-1").addEventListener("click", function() {
+    window.location.href = "/WSOA3028A_2562617/portfolio/portfolio2.html";
+    });
+
+    document.getElementById("portfolio3-2").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/index.html";
     });
 });
