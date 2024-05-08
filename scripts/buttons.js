@@ -133,6 +133,26 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     document.getElementById("week13-Blog2").addEventListener("click", function() {
+    window.location.href = "/WSOA3028A_2562617/blogs/week14.html";
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("week14-Blog1").addEventListener("click", function() {
+    window.location.href = "/WSOA3028A_2562617/blogs/week13.html";
+    });
+
+    document.getElementById("week14-Blog2").addEventListener("click", function() {
+    window.location.href = "/WSOA3028A_2562617/blogs/critical-reflection.html";
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("criticalReflection1").addEventListener("click", function() {
+    window.location.href = "/WSOA3028A_2562617/blogs/week14.html";
+    });
+
+    document.getElementById("criticalReflection2").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/design/index.html";
     });
 });
@@ -140,7 +160,7 @@ document.addEventListener("DOMContentLoaded", function() {
 //Design
 document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("designHome1").addEventListener("click", function() {
-    window.location.href = "/WSOA3028A_2562617/blogs/week13.html";
+    window.location.href = "/WSOA3028A_2562617/blogs/critical-reflection.html";
     });
 
     document.getElementById("designHome2").addEventListener("click", function() {

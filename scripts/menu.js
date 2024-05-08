@@ -39,6 +39,7 @@ const blogMenuItems = [
     { name: "Week 11", href: `${root}/blogs/week11.html` },
     { name: "Week 12", href: `${root}/blogs/week12.html` },
     { name: "Week 13", href: `${root}/blogs/week13.html` },
+    { name: "Week 14", href: `${root}/blogs/week14.html` },
 ]
 
 export function initialiseBlogMenu (currentBlog) {
