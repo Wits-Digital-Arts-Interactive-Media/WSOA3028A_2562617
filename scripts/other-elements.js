@@ -1,11 +1,7 @@
-//Pop-up Messages for each of the homepages
-function blogHome() {
-alert("This is a list of all my blog posts.");
-}
-
-function designHome() {
-alert("Click on the preferred image to open the each section of the Design Process.");
-}
+//Pop-up Messages
+window.addEventListener("DOMContentLoaded", (event) => {
+    alert("Click on the image to open the preferred section"); 
+});
 
 //Animate images when I hover over them
 const images = document.querySelectorAll(".image");
@@ -21,6 +17,7 @@ images.forEach(image => {
         this.style.transition = "transform 0.2s";
     });
 });
+
 
 
   

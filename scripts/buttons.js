@@ -1,13 +1,3 @@
-//Button that shows Welcome Message
-document.addEventListener("DOMContentLoaded", function() {
-    const button = document.getElementById("Button");
-    const h1 = document.querySelector("h1");
-
-    button.addEventListener("click", function() {
-        h1.innerText = "WELCOME TO MY WEBSITE!";
-    });
-});
-
 //Next and Back buttons
 //Homepage
 document.addEventListener("DOMContentLoaded", function() {
