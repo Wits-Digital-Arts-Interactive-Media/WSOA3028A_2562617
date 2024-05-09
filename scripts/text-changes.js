@@ -4,4 +4,4 @@ setTimeout(() => {
     if (heading) {
         heading.textContent = "Welcome To My Website!";
     }
-}, 1000);
+}, 2000);
