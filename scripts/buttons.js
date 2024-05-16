@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-//Blogs
+/*//Blogs
 document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("blogHome1").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/index.html";
@@ -277,7 +277,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("portfolio3-2").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/index.html";
     });
-});
+});*/
 
 
 
