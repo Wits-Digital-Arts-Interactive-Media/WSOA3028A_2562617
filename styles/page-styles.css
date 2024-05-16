@@ -1,0 +1,22 @@
+body 
+{
+    background:rgb(209, 182, 235);
+    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+}
+
+.logo
+{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+button
+{
+    background: rgb(228, 190, 171);
+    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+}
+
+footer
+{
+    background:rgb(240, 162, 201);
+}

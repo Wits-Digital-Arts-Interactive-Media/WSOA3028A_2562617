@@ -28,18 +28,18 @@ for (let menuItem of menuItems) {
 
 //Menu for all the blog pages
 const blogMenuItems = [
-    { name: "Week 1", href: `${root}/blogs/week1.html` },
-    { name: "Week 2", href: `${root}/blogs/week2.html` },
-    { name: "Week 3", href: `${root}/blogs/week3.html` },
-    { name: "Week 4", href: `${root}/blogs/week4.html` },
-    { name: "Week 6", href: `${root}/blogs/week6.html` },
-    { name: "Week 8", href: `${root}/blogs/week8.html` },
-    { name: "Week 9", href: `${root}/blogs/week9.html` },
-    { name: "Week 10", href: `${root}/blogs/week10.html` },
-    { name: "Week 11", href: `${root}/blogs/week11.html` },
-    { name: "Week 12", href: `${root}/blogs/week12.html` },
-    { name: "Week 13", href: `${root}/blogs/week13.html` },
-    { name: "Week 14", href: `${root}/blogs/week14.html` },
+    { name: "Blog 1", href: `${root}/blogs/blog1.html` },
+    { name: "Blog 2", href: `${root}/blogs/blog2.html` },
+    { name: "Blog 3", href: `${root}/blogs/blog3.html` },
+    { name: "Blog 4", href: `${root}/blogs/blog4.html` },
+    { name: "Blog 5", href: `${root}/blogs/blog5.html` },
+    { name: "Blog 6", href: `${root}/blogs/blog6.html` },
+    { name: "Blog 7", href: `${root}/blogs/blog7.html` },
+    { name: "Blog 8", href: `${root}/blogs/blog8.html` },
+    { name: "Blog 9", href: `${root}/blogs/blog9.html` },
+    { name: "Blog 10", href: `${root}/blogs/blog10.html` },
+    { name: "Blog 11", href: `${root}/blogs/blog11.html` },
+    { name: "Blog 12", href: `${root}/blogs/blog12.html` },
 ]
 
 export function initialiseBlogMenu (currentBlog) {
