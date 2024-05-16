@@ -1,8 +1,17 @@
 //Next and Back buttons
 //Homepage
-document.addEventListener("DOMContentLoaded", function() {
+/*document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("home").addEventListener("click", function() {
     window.location.href = "/WSOA3028A_2562617/blogs/index.html";
+    });
+});*/
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Attach click event listeners to all buttons with data-target attributes
+    document.querySelectorAll("button[data-target]").forEach(function(button) {
+        button.addEventListener("click", function() {
+            window.location.href = button.getAttribute("data-target");
+        });
     });
 });
 
