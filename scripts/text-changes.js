@@ -1,4 +1,5 @@
 //Welcome Message
+
 setTimeout(() => {
     const heading = document.getElementById("Message");
     if (heading) {
