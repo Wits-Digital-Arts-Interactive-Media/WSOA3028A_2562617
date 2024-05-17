@@ -1,6 +1,8 @@
-body {
+
+html{
     background:rgb(209, 182, 235);
     font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+    font-size: 13pt;
 }
 
 .logo{
@@ -8,11 +10,38 @@ body {
     font-weight: bold;
 }
 
+main{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+article{
+    background: rgb(230, 222, 185);
+    border: 3px solid black;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px; 
+}
+
+.references{
+    background: rgb(206, 206, 206);
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-top: 1px solid black;    
+    border-bottom: 3px solid black;
+    border-radius: 10px;
+}
+
 button{
     background: rgb(228, 190, 171);
     font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+    font-size: 13pt;
 }
 
 footer{
     background:rgb(240, 162, 201);
+    border-top: 3px solid black;
+    padding-bottom: 2%;
 }
