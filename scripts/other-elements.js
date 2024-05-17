@@ -2,7 +2,7 @@
 This is so that it doesn't show up again when the page is reopened.*/
 window.addEventListener("DOMContentLoaded", (event) => {
     const messageShown = localStorage.getItem("messageShown");
-    if (!messageShown && window.location.pathname.includes("/design/index.html")) {
+    if (!messageShown && window.location.pathname.includes("/blogs/index.html")) {
         alert("This page has images that animate when you hover on them. When you click on an image, it takes you to another page.");
         localStorage.setItem("messageShown", true);
     }
