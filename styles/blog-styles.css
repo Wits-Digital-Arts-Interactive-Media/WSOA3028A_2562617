@@ -1,8 +1,49 @@
-.blog-nav ul{
-    list-style-type: none;
-    margin-top: 50px;
+.blogs{
+    padding-right: 25px;
+    width: 20%;
 }
 
-details{
-line-height: 2;
+.blog-container{
+    background: rgb(167, 226, 220);
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 25px;
+    font-size: 25px;
+    margin-bottom: 11px;
+    text-align: center;
+}
+
+.blog-container a{
+    text-decoration: none;
+    color:black
+}
+
+.blog-container:hover{
+    background: rgb(240, 162, 201);
+}
+
+.blogs .active{
+    background: rgb(206, 206, 206);
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 25px;
+    font-size: 25px;
+    margin-bottom: 11px;
+    text-align: center;
+}
+
+article{
+    width: 80%;
+}
+
+p{
+    padding-bottom: 5px;
+}
+
+main{
+    display: flex;
+}
+
+h1{
+    text-align: center;
 }

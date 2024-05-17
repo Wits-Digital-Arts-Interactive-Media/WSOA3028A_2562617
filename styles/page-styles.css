@@ -10,16 +10,45 @@ html{
     font-weight: bold;
     position: absolute;
     top: 10px;
-    left: 20px;
+    left: 60px;
 }
 
 .main-nav ul{
     display: flex;
+    border-radius: 10px;
+    font-size: 20px;
     list-style-type: none;
     justify-content: right;
-    margin-right: 10px;
+    margin-right: 60px;
     margin-bottom: 60px;
     gap: 10px;
+}
+
+.main-nav ul li{
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background: rgb(240, 162, 201);
+}
+
+.main-nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.main-nav ul li:hover{
+    background: rgb(167, 226, 220);
+}
+
+.main-nav li.active{
+    background: rgb(228, 190, 171);
+    font-weight: bold;
+}
+
+.main-nav li.active:hover{
+    background: rgb(228, 190, 171);
+    font-weight: bold;
 }
 
 main{
@@ -29,12 +58,11 @@ main{
 
 article{
     text-align: justify;
-
     background: rgb(230, 222, 185);
     border: 3px solid black;
     border-radius: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 5px; 
 }
 
@@ -42,12 +70,14 @@ article{
     background: rgb(206, 206, 206);
     border-left: 3px solid black;
     border-right: 3px solid black;
-    border-top: 1px solid black;    
-    border-bottom: 3px solid black;
+    border-top: 3px solid black;    
+    border-bottom: 1px solid black;
     border-radius: 10px;
     padding-left: 25px;
     padding-right: 25px;
+    margin-left: -52px;
     line-height: 1.5;
+    width: 105%;
 }
 
 button{

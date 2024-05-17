@@ -7,10 +7,41 @@
 
 .home-nav ul{
     display: flex;
+    font-size: 20px;
     list-style-type: none;
     justify-content: center;
     margin-bottom: 50px;
     gap: 10px;
+}
+
+.home-nav ul li{
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background: rgb(240, 162, 201);
+}
+
+.home-nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.home-nav ul li:hover
+{
+    background-color: rgb(167, 226, 220);
+}
+
+.home-nav li.active
+{
+    background: rgb(228, 190, 171);
+    font-weight: bold;
+}
+
+.home-nav li.active:hover
+{
+    background: rgb(228, 190, 171);
+    font-weight: bold;
 }
 
 h2{
