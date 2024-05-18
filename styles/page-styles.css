@@ -58,9 +58,10 @@ h1{
 main{
     margin-left: 50px;
     margin-right: 50px;
+    line-height: 25px;
 }
 
-article{
+.h-entry{
     text-align: justify;
     background: rgb(230, 222, 185);
     border: 3px solid black;
@@ -68,6 +69,18 @@ article{
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 5px; 
+}
+
+.spacing{
+    padding-bottom: 25px;
+}
+
+.side-by-side{
+    display: flex;
+}
+
+.info{
+    margin-left: 40px;
 }
 
 .references{

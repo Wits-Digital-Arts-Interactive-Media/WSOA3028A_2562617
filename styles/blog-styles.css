@@ -46,10 +46,6 @@ main{
     display: flex;
 }
 
-.side-by-side{
-    display: flex;
-}
-
 .list-item{
     padding-bottom: 25px;
 }
@@ -59,6 +55,4 @@ main{
     margin-left: 500px;
 }
 
-.info{
-    margin-left: 40px;
-}
+

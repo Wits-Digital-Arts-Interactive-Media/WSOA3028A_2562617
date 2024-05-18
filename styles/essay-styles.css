@@ -1,0 +1,40 @@
+.essay{
+    display: flex;  
+}
+
+section{
+    text-align: justify;
+    background: rgb(230, 222, 185);
+    border: 3px solid black;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px; 
+    width: 600px;  
+}
+
+p{
+    padding-bottom: 25px;
+}
+
+.move{
+    margin-left: 150px;
+}
+
+.move2{
+    margin-left: 100px;
+}
+
+.essay-references{
+    background: rgb(206, 206, 206);
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-top: 3px solid black;    
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: -53px;
+    line-height: 1.5;
+    width: 109%;
+}
