@@ -76,3 +76,11 @@ p{
     line-height: 1.5;
     width: 109%;
 }
+
+.list-item{
+    padding-bottom: 25px;
+}
+
+h2{
+    padding-bottom: 25px;
+}

@@ -43,3 +43,11 @@
     background: rgb(206, 206, 206);
     font-weight: bold;
 }
+
+.wireframe{
+    text-align: center;
+}
+
+.list-item{
+    padding-bottom: 25px;
+}
