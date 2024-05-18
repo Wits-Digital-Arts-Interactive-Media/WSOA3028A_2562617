@@ -11,6 +11,7 @@
     font-size: 25px;
     margin-bottom: 11px;
     text-align: center;
+    width: 250px;
 }
 
 .blog-container a{
@@ -30,6 +31,7 @@
     font-size: 25px;
     margin-bottom: 11px;
     text-align: center;
+    width: 250px;
 }
 
 article{
@@ -42,4 +44,21 @@ p{
 
 main{
     display: flex;
+}
+
+.side-by-side{
+    display: flex;
+}
+
+.list-item{
+    padding-bottom: 25px;
+}
+
+.artist{
+    text-align: center;
+    margin-left: 500px;
+}
+
+.info{
+    margin-left: 40px;
 }
