@@ -10,7 +10,6 @@
     font-size: 20px;
     list-style-type: none;
     justify-content: center;
-    margin-bottom: 50px;
     gap: 10px;
 }
 
@@ -44,6 +43,7 @@
     font-weight: bold;
 }
 
-h2{
+#Message{
     text-align: center;
+    padding-top: 50px;
 }

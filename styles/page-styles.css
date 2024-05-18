@@ -8,19 +8,26 @@ html{
 .logo{
     font-size: 50px;
     font-weight: bold;
-    position: absolute;
-    top: 10px;
-    left: 60px;
+    margin-left: 55px;
+    padding-top: 20px;
+}
+
+header{
+    background-color: rgb(179, 133, 221);
+    border-bottom: 3px solid black;
+    padding-bottom: 20px;
+    margin: -8px;
 }
 
 .main-nav ul{
     display: flex;
-    border-radius: 10px;
     font-size: 20px;
     list-style-type: none;
     justify-content: right;
-    margin-right: 60px;
     margin-bottom: 60px;
+    position: absolute;
+    right: 60px;
+    top: 0;
     gap: 10px;
 }
 
@@ -53,6 +60,7 @@ html{
 
 h1{
     text-align: center;
+    padding-top: 50px;
 }
 
 main{
@@ -81,6 +89,10 @@ main{
 
 .info{
     margin-left: 40px;
+}
+
+.center{
+    margin-left: 200px;
 }
 
 .references{
