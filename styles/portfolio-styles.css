@@ -13,4 +13,40 @@
     text-align: justify;
 }
 
+.sub-nav ul{
+    display: flex;
+    font-size: 20px;
+    list-style-type: none;
+    justify-content: center;
+    gap: 10px;
+}
 
+.sub-nav ul li{
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background: rgb(167, 226, 220);
+}
+
+.sub-nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.sub-nav ul li:hover
+{
+    background-color: rgb(240, 162, 201);
+}
+
+.sub-nav li.active
+{
+    background: rgb(206, 206, 206);
+    font-weight: bold;
+}
+
+.sub-nav li.active:hover
+{
+    background: rgb(206, 206, 206);
+    font-weight: bold;
+}
