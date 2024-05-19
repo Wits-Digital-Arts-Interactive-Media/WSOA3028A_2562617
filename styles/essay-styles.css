@@ -1,9 +1,11 @@
 .essay{
     display: flex;  
+    flex-wrap: wrap;
 }
 
 .sub-nav ul{
     display: flex;
+    flex-wrap: wrap;
     font-size: 20px;
     list-style-type: none;
     justify-content: center;
@@ -61,6 +63,10 @@ p{
 
 .move2{
     margin-left: 100px;
+}
+
+.essay-wrap{
+    width: 95%
 }
 
 .essay-references{

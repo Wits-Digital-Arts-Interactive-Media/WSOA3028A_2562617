@@ -1,5 +1,6 @@
 .container{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .about{
@@ -9,12 +10,18 @@
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 15px; 
-    margin-left: 10px;
+    margin-left: 30px;
     text-align: justify;
+    width: 800px;
+}
+
+.image{
+    margin-left: 20px;
 }
 
 .sub-nav ul{
     display: flex;
+    flex-wrap: wrap;
     font-size: 20px;
     list-style-type: none;
     justify-content: center;
