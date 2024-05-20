@@ -57,3 +57,17 @@
     background: rgb(206, 206, 206);
     font-weight: bold;
 }
+
+.art{
+    display: flex;
+    margin-left: 100px;
+    gap: 15px;
+}
+
+.read-more{
+    background: white;
+    border: 3px solid black;
+    text-align: center;
+    padding: 10px;
+}
+

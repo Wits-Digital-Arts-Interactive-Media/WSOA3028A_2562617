@@ -80,7 +80,6 @@ header{
     }
 
     .main-nav ul{
-    display: none;
     position: fixed;
     text-align: center;
     top: 100px;
