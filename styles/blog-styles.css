@@ -1,4 +1,6 @@
 .blogs{
+    display: flex;
+    flex-direction: column;
     padding-right: 25px;
     width: 20%;
 }
@@ -55,3 +57,42 @@ main{
     margin-left: 500px;
 }
 
+.folder-structure{
+    width: 350px; 
+    height: 340px;
+}
+
+.big-image{
+    width: 500px;
+    height: 300px;
+}
+
+.small-image{
+    width: 500px;
+    height: 100px;
+}
+
+.mind-map{
+    width: 1050px;
+    height: 650px;
+}
+
+.mind-map2{
+    width: 850px;
+    height: 450px;
+}
+
+.mind-map3{
+    width: 600px;
+    height: 400px;
+}
+
+.website-images{
+    width: 650px;
+    height: 350px;
+}
+
+.reference-image{
+    width: 250px;
+    height: 250px;
+}

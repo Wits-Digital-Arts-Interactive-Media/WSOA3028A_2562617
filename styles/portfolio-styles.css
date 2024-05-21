@@ -15,8 +15,10 @@
     width: 800px;
 }
 
-.image{
+.profile-image{
     margin-left: 20px;
+    width: 440px;
+    height: 440px;
 }
 
 .sub-nav ul{
