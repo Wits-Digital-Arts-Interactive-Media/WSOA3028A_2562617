@@ -60,5 +60,30 @@
 
 .mobile-wireframe{
     width: 330px; 
+    height: 600px;
+}
+
+.mind-map{
+    width: 1300px;
+    height: 800px;
+}
+
+.colours{
+    width: 350px; 
+    height: 200px;
+}
+
+.overview{
+    width: 1300px;
     height: 650px;
+}
+
+.font-image{
+    width: 320px;
+    height: 400px;
+}
+
+.google-image{
+    width: 700px;
+    height: 250px;
 }

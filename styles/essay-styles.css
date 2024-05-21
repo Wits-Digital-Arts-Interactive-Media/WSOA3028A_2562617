@@ -59,14 +59,28 @@ p{
 
 .move{
     margin-left: 150px;
+    width: 300px; 
+    height: 600px;
 }
 
 .move2{
     margin-left: 100px;
+    width: 400px;
+    height: 155px;
 }
 
 .essay-wrap{
-    width: 95%
+    width: 95%;
+}
+
+.essay-image{
+    width: 600px;
+    height: 450px;
+}
+
+.essay-image2{
+    width: 600px;
+    height: 70px;
 }
 
 .essay-references{
