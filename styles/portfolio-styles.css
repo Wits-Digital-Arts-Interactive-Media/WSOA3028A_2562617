@@ -77,3 +77,11 @@
     width: 300px; 
     height: 300px;
 }
+
+.videos{
+    display: flex;
+    margin: 50px;
+    gap: 50px;
+    width: 200px;
+    height: 200px;
+}
