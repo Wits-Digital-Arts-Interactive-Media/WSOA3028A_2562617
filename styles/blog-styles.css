@@ -38,6 +38,30 @@
     cursor: default;
 }
 
+/*Media query for the blogs on a small screen*/
+@media(max-width: 700px){
+    
+    /*Remove the blog tabs to make space*/
+    .blogs{
+        display: none;    
+    }
+   
+    /*Move the blog to the side*/
+    article{
+        margin-left: -10px;
+    }
+
+    /*Match the references block to the same size as the blog article*/
+    .references{
+        width: 117%;
+    }
+
+    /*Remove the artist's name to make space*/
+    .artist{
+    display: none;    
+    }
+}
+
 /*Styling for the actual blogs and each of their elements*/
 article{
     width: 80%;

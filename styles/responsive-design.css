@@ -5,11 +5,15 @@
     object-fit: cover; 
 }
 
+/*Large Screens*/
 @media (max-width: 1440px) {
+    /*Blog cards*/
     .cards {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        margin-left: 50px;
     }
     
+    /*Design, Essay & Portfolio cards*/
     .center {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         margin: auto;   
@@ -17,9 +21,11 @@
 
     .center2 {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        margin-left: 10px;
     }
 }
 
+/*Medium Screens*/
 @media (max-width: 1024px) {
 
     html{
@@ -41,6 +47,7 @@
     }
 }
 
+/*Small Screens*/
 @media (max-width: 768px) {
 
     html{
@@ -60,7 +67,34 @@
     }
 }
 
-/*Responsive Design for nav menu*/
+@media(max-width: 700px){
+
+    .profile-image img{
+        width: 100%;
+        height: 100%;
+    }
+
+    /*Change the layout of the elements in this class*/
+    .side-by-side{
+        display: block; 
+    }
+        
+    .side-by-side img{
+        width: 100%;
+    }
+        
+    .info{
+        margin-left: -3px;
+    }
+        
+    /*Scale down the images in this class*/
+    .responsive img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/*Responsive Design for the nav menu*/
 @media (max-width: 768px) {
     .main-nav ul {
         flex-direction: column; 
