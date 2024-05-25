@@ -1,7 +1,7 @@
 .blogs{
     display: flex;
     flex-direction: column;
-    padding-right: 25px;
+    margin-left: 5px;
     width: 20%;
 }
 
@@ -34,6 +34,7 @@
     margin-bottom: 15px;
     text-align: center;
     width: 90%;
+    cursor: default;
 }
 
 article{

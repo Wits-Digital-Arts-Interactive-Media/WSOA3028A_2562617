@@ -36,6 +36,7 @@
 {
     background: rgb(228, 190, 171);
     font-weight: bold;
+    cursor: default;
 }
 
 .home-nav li.active:hover
