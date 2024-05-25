@@ -26,7 +26,7 @@ header{
     flex-wrap: wrap;
     font-size: 20px;
     list-style-type: none;
-    justify-content: right;
+    justify-content: flex-end; 
     margin-bottom: 60px;
     position: absolute;
     right: 80px;
@@ -95,9 +95,9 @@ main{
 /*Laying out the blog cards as a grid*/
 .cards{
     display: grid;
-    grid-template-columns: 450px 450px 450px;
-    grid-template-rows: 450px 450px 450px 450px;
-    margin-left: 100px;
+    grid-template-columns: 415px 415px 415px;
+    margin-left: 110px;
+    gap: 15px;
 }
 
 /*Adding space after elements that are in this class*/
