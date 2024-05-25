@@ -1,0 +1,32 @@
+.bars{
+    font-size: 30px;
+    color: black;
+    float: right;
+    margin-right: 40px;
+    margin-top: 10px;
+    line-height: 55px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+/*Media query*/
+@media (max-width: 1090px){
+    .bars{
+        display: block;
+    }
+
+    .main-nav ul{
+    position: fixed;
+    text-align: center;
+    top: 100px;
+    transition: all 1s;
+    }
+
+    #check:checked ~ .main-nav ul{
+        display: flex;
+    }
+}
