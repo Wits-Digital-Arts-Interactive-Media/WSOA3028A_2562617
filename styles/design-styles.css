@@ -1,11 +1,14 @@
+/*Adding space between each list item*/
 .list-item2{
     padding-bottom: 15px;
 }
 
+/*Centering all the titles*/
 .title{
     text-align: center;
 }
 
+/*Styling for the sub nav menu*/
 .sub-nav ul{
     display: flex;
     flex-wrap: wrap;
@@ -45,6 +48,7 @@
     font-weight: bold;
 }
 
+/*Styling for all the design elements*/
 .wireframe{
     text-align: center;
 }
@@ -88,6 +92,7 @@
     height: 250px;
 }
 
+/*Styling for the "Back To Top" button*/
 .top{
     background: rgb(167, 226, 220);
     border: 3px solid black;

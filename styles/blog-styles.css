@@ -1,3 +1,4 @@
+/*Styling for the blog tabs found the blog pages*/
 .blogs{
     display: flex;
     flex-direction: column;
@@ -37,6 +38,7 @@
     cursor: default;
 }
 
+/*Styling for the actual blogs and each of their elements*/
 article{
     width: 80%;
 }

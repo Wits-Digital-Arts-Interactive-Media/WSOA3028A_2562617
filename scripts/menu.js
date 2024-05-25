@@ -1,6 +1,7 @@
-//Menu for all pages
+//Menu for all pages done in class 
 const root = "/WSOA3028A_2562617"
 
+//An array of all the menu tabs
 const menuItems = [
     { name: "Home", href: root + "/index.html" },
     { name: "Blog Posts", href: `${root}/blogs/index.html` },
@@ -9,6 +10,7 @@ const menuItems = [
     { name: "Portfolio", href: `${root}/portfolio/index.html` },
 ]
 
+//Function for the nav menu 
 export function initialiseMenu (currentPage) {
 const nav = document.querySelector ("header > nav")
 const ul = document.createElement ("ul")

@@ -1,8 +1,10 @@
+/*Making the essay appear as a two side-by-side pages*/
 .essay{
     display: flex;  
     flex-wrap: wrap;
 }
 
+/*Styling for the sub nav menu*/
 .sub-nav ul{
     display: flex;
     flex-wrap: wrap;
@@ -42,6 +44,7 @@
     font-weight: bold;
 }
 
+/*Styling for the actual essay and each of its elements*/
 section{
     text-align: justify;
     background: rgb(230, 222, 185);
@@ -83,6 +86,7 @@ p{
     height: 70px;
 }
 
+/*Styling for the essay refrences block*/
 .essay-references{
     background: rgb(206, 206, 206);
     border-left: 3px solid black;
@@ -105,6 +109,7 @@ h2{
     padding-bottom: 25px;
 }
 
+/*Centering the "Back To Top" button*/
 .back-to-top{
     margin-left: 210px;
 }

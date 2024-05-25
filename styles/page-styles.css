@@ -1,9 +1,11 @@
+/*Styling for all the elements inside the html tag*/
 html{
     background:rgb(209, 182, 235);
     font-family: Futura,Trebuchet MS,Arial,sans-serif; 
     font-size: 13pt;
 }
 
+/*Styling for my website title/logo*/
 .logo{
     font-size: 50px;
     font-weight: bold;
@@ -11,6 +13,7 @@ html{
     padding-top: 20px;
 }
 
+/*Styling for the nav menu*/
 header{
     background-color: rgb(179, 133, 221);
     border-bottom: 3px solid black;
@@ -59,22 +62,26 @@ header{
     font-weight: bold;
 }
 
+/*Centering the page name/heading and adding space above and below it*/
 .pageName{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
+/*Centering the blog title/heading and adding space below it*/
 .p-name{
     padding-bottom: 10px;
 }
 
+/*Indenting the main contents and adding line spacing*/
 main{
     margin-left: 50px;
     margin-right: 50px;
     line-height: 25px;
 }
 
+/*Styling the all the contents of the article element*/
 .h-entry{
     text-align: justify;
     background: rgb(230, 222, 185);
@@ -85,6 +92,7 @@ main{
     padding-top: 5px; 
 }
 
+/*Laying out the blog cards as a grid*/
 .cards{
     display: grid;
     grid-template-columns: 450px 450px 450px;
@@ -92,18 +100,22 @@ main{
     margin-left: 100px;
 }
 
+/*Adding space after elements that are in this class*/
 .spacing{
     padding-bottom: 25px;
 }
 
+/*Putting the elements in this class side by side*/
 .side-by-side{
     display: flex;
 }
 
+/*Moving the elements in this class 40px away from the left margin*/
 .info{
     margin-left: 40px;
 }
 
+/*Centering the elements in this class*/
 .center{
     display: flex;
     margin-left: 220px;
@@ -116,6 +128,7 @@ main{
     gap: 25px;
 }
 
+/*Styling for the references block*/
 .references{
     background: rgb(206, 206, 206);
     border-left: 3px solid black;
@@ -130,10 +143,12 @@ main{
     width: 105%;
 }
 
+/*Styling for all the hyperlinks*/
 a{
-    color: rgb(78, 44, 110);
+    color: rgb(149, 14, 149);
 }
 
+/*Styling for all the buttons*/
 button{
     background: rgb(228, 190, 171);
     font-family: Futura,Trebuchet MS,Arial,sans-serif; 
@@ -153,6 +168,7 @@ button{
     justify-content: center;
 }
 
+/*Styling for the footer*/
 footer{
     background:rgb(240, 162, 201);
     border-top: 3px solid black;
@@ -164,17 +180,19 @@ footer{
     font-weight: bold;
 }
 
-
+/*Making elements in this class their true size*/
 .wrap{
     width: 100%;
     height: 100%;
 }
 
+/*Scaling the buttons in the class*/
 .button{
     width: 30px;
     height: 30px;
 }
 
+/*Styling for the "Back To Top" button*/
 .back-to-top{
     border: 3px solid black;
     border-radius: 5px;

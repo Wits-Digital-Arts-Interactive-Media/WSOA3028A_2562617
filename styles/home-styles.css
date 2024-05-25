@@ -1,3 +1,4 @@
+/*Styling for my website title/logo*/
 .home-logo{
     text-align: center;
     font-size: 50px;
@@ -5,6 +6,7 @@
     margin-bottom: 30px;
 }
 
+/*Styling for the home nav menu*/
 .home-nav ul{
     display: flex;
     flex-wrap: wrap;
@@ -45,11 +47,13 @@
     font-weight: bold;
 }
 
+/*Centering the welcome message and adding a space below it*/
 #Message{
     text-align: center;
     padding-top: 50px;
 }
 
+/*Scaling the home image*/
 img{
     width: 1400px; 
     height: 600px;
