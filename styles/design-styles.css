@@ -87,3 +87,25 @@
     width: 700px;
     height: 250px;
 }
+
+.top{
+    background: rgb(167, 226, 220);
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-left: 850px;
+    padding: 25px;
+    font-size: 25px;
+    text-align: center;
+    width: 200px;
+}
+
+.top2{
+    background: rgb(167, 226, 220);
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 25px;
+    margin-left: 540px;
+    font-size: 25px;
+    text-align: center;
+    width: 200px;
+}
