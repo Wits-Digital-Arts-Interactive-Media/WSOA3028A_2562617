@@ -115,17 +115,32 @@ main{
     margin-left: 40px;
 }
 
-/*Centering the elements in this class*/
+/*Centering the placeholder images in this class*/
 .center{
-    display: flex;
+    display: grid;
+    grid-template-columns: 415px 415px;
     margin-left: 220px;
     gap: 25px;
 }
 
+/*Responsive Design for placeholder images*/
+.center img {
+    width: 100%;
+    height: auto; 
+    object-fit: cover; 
+}
+
 .center2{
-    display: flex;
-    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 415px 415px 415px;
+    margin-left: 60px;
     gap: 25px;
+}
+
+.center2 img {
+    width: 100%;
+    height: auto; 
+    object-fit: cover; 
 }
 
 /*Styling for the references block*/

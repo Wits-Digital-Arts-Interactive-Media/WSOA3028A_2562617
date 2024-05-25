@@ -32,5 +32,3 @@ for (let menuItem of menuItems) {
     }
     nav.appendChild(ul)
 }
-
-
