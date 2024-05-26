@@ -38,7 +38,7 @@
     cursor: default;
 }
 
-/*Media query for the blogs on a small screen*/
+/*Media query for the blogs on a small screen: ideally 360X740 size*/
 @media(max-width: 700px){
     
     /*Remove the blog tabs to make space*/
@@ -69,6 +69,27 @@
     /*Remove the artist's name to make space*/
     .artist{
     display: none;    
+    }
+}
+
+@media(max-width: 1024px){
+    .side-by-side{
+        display: block;
+    }
+
+    .info{
+        margin: 0;
+    }
+
+    .responsive img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .back-to-top{
+        margin-left: -10px;
+        margin-right: 10px;
+        width: 180px;
     }
 }
 
