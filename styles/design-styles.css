@@ -115,6 +115,11 @@
     width: 200px;
 }
 
+.wireframes{
+    display: flex;
+    gap: 10px;
+}
+
 /*Media query for scaling down the images and the "Back To Top" button when the screen is small*/
 @media(max-width: 700px){
 
