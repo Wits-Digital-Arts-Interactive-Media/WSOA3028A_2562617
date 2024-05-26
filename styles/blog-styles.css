@@ -46,14 +46,24 @@
         display: none;    
     }
    
-    /*Move the blog to the side*/
-    article{
-        margin-left: -10px;
+    main{
+    margin-left: 25px;
+    width: 320px;
+    }
+
+    /*Move these to the side*/
+    .h-entry{
+        margin-left: -25px;
+        width: 75%;
+    }
+
+    li{
+        margin-left: -15px;
     }
 
     /*Match the references block to the same size as the blog article*/
     .references{
-        width: 117%;
+        display: none;    
     }
 
     /*Remove the artist's name to make space*/
