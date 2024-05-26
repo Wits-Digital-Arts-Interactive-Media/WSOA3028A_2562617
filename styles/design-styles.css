@@ -92,6 +92,10 @@
     height: 250px;
 }
 
+.font-images{
+    display: flex;
+}
+
 /*Styling for the "Back To Top" button*/
 .top{
     background: rgb(167, 226, 220);
@@ -170,7 +174,6 @@
         width: 200px;
         height: 190px;
     }
-
 
     .font-images{
         display: flex;
