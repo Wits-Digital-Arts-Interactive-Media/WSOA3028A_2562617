@@ -92,6 +92,16 @@ p{
     height: 70px;
 }
 
+.essay-image3{
+    width: 600px;
+    height: 300px;
+}
+
+.essay-image4{
+    width: 600px;
+    height: 370px;
+}
+
 /*Styling for the essay refrences block*/
 .essay-references{
     background: rgb(206, 206, 206);

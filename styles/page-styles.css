@@ -185,6 +185,7 @@ button{
 
 /*Styling for the footer*/
 footer{
+    background-color: rgb(179, 133, 221);
     border-top: 3px solid black;
     padding-bottom: 1%;
     padding-top: 1%;
