@@ -60,11 +60,12 @@
 .desktop-wireframe{
     width: 950px;
     height: 650px;
+    margin-left: 50px;
 }
 
 .mobile-wireframe{
     width: 330px; 
-    height: 600px;
+    height: 650px;
 }
 
 .mind-map{
@@ -114,6 +115,17 @@
     border-radius: 5px;
     padding: 25px;
     margin-left: 540px;
+    font-size: 25px;
+    text-align: center;
+    width: 200px;
+}
+
+.top3{
+    background: rgb(167, 226, 220);
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 25px;
+    margin-left: 590px;
     font-size: 25px;
     text-align: center;
     width: 200px;
