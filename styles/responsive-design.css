@@ -1,16 +1,15 @@
-/*Responsive Design
- I was able to create responsiveness for the sizes 1500 x 800, 1024 x 642 and 360 x 740.
+/*I was able to create responsiveness for the sizes 1500 x 800, 1024 x 642 and 360 x 740.
  I tried to make the website responsive throughout but it was a bit difficult.
- However, I plan to improve the resonsiveness as I continue developing the website.
-*/
+ However, I plan to improve the resonsiveness as I continue developing the website.*/
 
+/*Scale for the homepage cards/images*/
 .cards img {
     width: 100%;
     height: auto; 
     object-fit: cover; 
 }
 
-/*Large Screens: 1500x800*/
+/*Responsive Design for Large Screens: 1500x800*/
 @media (max-width: 1500px) {
     /*Blog cards*/
     .cards {
@@ -30,7 +29,7 @@
     }
 }
 
-/*Medium Screens: 1024x642*/
+/*Responsive Design for Medium Screens: 1024x642*/
 @media (max-width: 1024px) {
 
     html{
@@ -64,7 +63,7 @@
     }
 }
 
-/*Small Screens: up to 700px*/
+/*Responsive Design for Small Screens: up to 700px*/
 @media (max-width: 700px) {
 
     html{
@@ -111,7 +110,7 @@
     }
 }
 
-/*Responsive Design for the nav menu*/
+/*Responsive Design for the nav menu on small screens*/
 @media (max-width: 360px) {
 
     header{

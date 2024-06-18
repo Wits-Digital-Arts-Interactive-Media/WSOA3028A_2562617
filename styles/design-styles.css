@@ -132,6 +132,16 @@
     text-align: center;
 }
 
+.wireframes{
+    display: flex;
+    gap: 10px;
+}
+
+.information-structure{
+    width: 100%;
+    height: 100%;
+}
+
 /*Styling for the "Back To Top" button*/
 .top{
     background: rgb(167, 226, 220);
@@ -166,17 +176,7 @@
     width: 200px;
 }
 
-.wireframes{
-    display: flex;
-    gap: 10px;
-}
-
-.information-structure{
-    width: 100%;
-    height: 100%;
-}
-
-/*Media query for scaling down the images and the "Back To Top" button on a small screen: 360x740 size*/
+/*Media query for scaling down the images and the "Back To Top" button on a small screen*/
 @media(max-width: 700px){
 
     main{
@@ -210,7 +210,7 @@
     }
 }
 
-/*Scale down the image when the screen is 1024x642*/
+/*Scale down the image when the screen is 1024x642 in size*/
 @media(max-width: 1024px){
     .responsive2 img{
         width: 100%;

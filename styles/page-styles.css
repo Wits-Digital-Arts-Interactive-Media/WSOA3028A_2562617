@@ -5,6 +5,7 @@ html{
     font-size: 13pt;
 }
 
+/*Layout for the html and body elements*/
 html, body {
     margin: 0;
     padding: 0;
@@ -12,6 +13,7 @@ html, body {
     width: 99.7%;
 }
 
+/*Layout for the body elements*/
 body {
     display: flex;
     flex-direction: column;
@@ -137,26 +139,6 @@ main{
     gap: 25px;
 }
 
-/*Responsive Design for placeholder images*/
-.center img {
-    width: 100%;
-    height: auto; 
-    object-fit: cover; 
-}
-
-.center2{
-    display: grid;
-    grid-template-columns: 415px 415px 415px;
-    margin-left: 60px;
-    gap: 25px;
-}
-
-.center2 img {
-    width: 100%;
-    height: auto; 
-    object-fit: cover; 
-}
-
 /*Styling for the references block*/
 .references{
     background: rgb(206, 206, 206);
@@ -233,4 +215,24 @@ footer {
     text-align: center;
     width: 200px;
     background: rgb(240, 162, 201);
+}
+
+/*Responsive Design for the homepage cards/images*/
+.center img {
+    width: 100%;
+    height: auto; 
+    object-fit: cover; 
+}
+
+.center2{
+    display: grid;
+    grid-template-columns: 415px 415px 415px;
+    margin-left: 60px;
+    gap: 25px;
+}
+
+.center2 img {
+    width: 100%;
+    height: auto; 
+    object-fit: cover; 
 }

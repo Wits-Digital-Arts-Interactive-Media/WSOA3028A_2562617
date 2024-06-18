@@ -1,4 +1,7 @@
-//Shows a reading progress bar for the blog posts
+//Reading progress bar 
+
+/*As the reader scrolls through a blog post page, the progress bar will move up.
+  When the reader is done scrolling, the bar will be full and when they scroll up, it will move back.*/
 window.onscroll = function() { updateProgressBar() };
 
 function updateProgressBar() {

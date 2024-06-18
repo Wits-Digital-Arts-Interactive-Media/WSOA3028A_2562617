@@ -1,3 +1,43 @@
+/*Styling the sub nav menu*/
+.sub-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    list-style-type: none;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sub-nav ul li{
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background: rgb(167, 226, 220);
+}
+
+.sub-nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.sub-nav ul li:hover
+{
+    background-color: rgb(240, 162, 201);
+}
+
+.sub-nav li.active
+{
+    background: rgb(206, 206, 206);
+    font-weight: bold;
+}
+
+.sub-nav li.active:hover
+{
+    background: rgb(206, 206, 206);
+    font-weight: bold;
+}
+
 /*Laying out the elements in this class side by side*/
 .container{
     display: flex;
@@ -12,7 +52,7 @@
     padding-top: 50px;
 }
 
-/*Styling the about section*/
+/*Styling the "About" section*/
 .about{
     background: rgb(230, 222, 185);
     border: 3px solid black;
@@ -25,6 +65,7 @@
     width: 800px;
 }
 
+/*Styling the "Contact Me" form*/
 .contact{
     background-color: rgb(206, 206, 206);
     border: 3px solid black;
@@ -70,6 +111,7 @@ textarea {
     color: rgb(149, 14, 149);
 }
 
+/*Styling for the social media icons*/
 .socials{
     width: 100px;
     height: 100px;
@@ -82,51 +124,11 @@ textarea {
     gap: 50px;
 }
 
-/*Styling my profile image*/
+/*Styling for my profile image*/
 .u-photo{
     margin-left: 20px;
     width: 440px;
     height: 440px;
-}
-
-/*Styling the sub nav menu*/
-.sub-nav ul{
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 20px;
-    list-style-type: none;
-    justify-content: center;
-    gap: 10px;
-}
-
-.sub-nav ul li{
-    border: 3px solid black;
-    border-radius: 5px;
-    padding: 5px;
-    background: rgb(167, 226, 220);
-}
-
-.sub-nav ul li a{
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-
-.sub-nav ul li:hover
-{
-    background-color: rgb(240, 162, 201);
-}
-
-.sub-nav li.active
-{
-    background: rgb(206, 206, 206);
-    font-weight: bold;
-}
-
-.sub-nav li.active:hover
-{
-    background: rgb(206, 206, 206);
-    font-weight: bold;
 }
 
 /*Layout for the artworks*/
@@ -159,7 +161,7 @@ textarea {
     height: 200px;
 }
 
-/*Small Screens: up to 700px*/
+/*Media Query for viewing the portfolio page on a small screen*/
 @media(max-width: 700px){
     .art{
         display: block;
@@ -186,7 +188,7 @@ textarea {
     }
 }
 
-/*Medium Screens: 1024x642*/
+/*Media Query for viewing the portfolio page on a medium screen*/
 @media(max-width: 1024px){
 
     .about{

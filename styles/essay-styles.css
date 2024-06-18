@@ -102,6 +102,18 @@ p{
     height: 370px;
 }
 
+.list-item{
+    padding-bottom: 25px;
+}
+
+h2{
+    padding-bottom: 25px;
+}
+
+.back-to-top{
+    margin-left: 210px;
+}
+
 /*Styling for the essay refrences block*/
 .essay-references{
     background: rgb(206, 206, 206);
@@ -115,19 +127,6 @@ p{
     margin-left: -53px;
     line-height: 1.5;
     width: 109%;
-}
-
-.list-item{
-    padding-bottom: 25px;
-}
-
-h2{
-    padding-bottom: 25px;
-}
-
-/*Centering the "Back To Top" button*/
-.back-to-top{
-    margin-left: 210px;
 }
 
 /*Media query for the essays on a small screen*/
@@ -151,7 +150,7 @@ h2{
     }
 }
 
-/*Media query for the essays on a medium screen: 1024x642 size*/
+/*Media query for the essays on a medium screen*/
 @media(max-width: 1024px){
     
     .page1, .page2{
