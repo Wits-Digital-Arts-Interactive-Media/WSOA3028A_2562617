@@ -4,6 +4,14 @@
     flex-wrap: wrap;
 }
 
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 170px;
+    gap: 190px;
+    padding-top: 50px;
+}
+
 /*Styling the about section*/
 .about{
     background: rgb(230, 222, 185);
@@ -17,8 +25,65 @@
     width: 800px;
 }
 
+.contact{
+    background-color: rgb(206, 206, 206);
+    border: 3px solid black;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px; 
+    margin-left: 30px;
+    text-align: justify;
+    width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+    font-size: large; 
+    background-color: rgb(206, 206, 206);
+    width: 97%;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.submit {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(167, 226, 220);
+    border: solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: rgb(240, 162, 201);
+}
+
+#responseMessage {
+    margin-top: 10px;
+    color: rgb(149, 14, 149);
+}
+
+.socials{
+    width: 100px;
+    height: 100px;
+}
+
+.socials-images{
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    gap: 50px;
+}
+
 /*Styling my profile image*/
-.profile-image{
+.u-photo{
     margin-left: 20px;
     width: 440px;
     height: 440px;

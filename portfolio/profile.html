@@ -13,6 +13,7 @@
      initialiseMenu("Portfolio")</script>
     <script type ="module" src="../scripts/buttons.js"></script>
     <script src="https://kit.fontawesome.com/a7ac100429.js" crossorigin="anonymous"></script>
+    <script src="../scripts/contact-form.js"></script>
 
     <link rel="stylesheet" href="../styles/page-styles.css">
     <link rel="stylesheet" href="../styles/responsive-design.css">
@@ -37,22 +38,32 @@
     <h1 class="pageName">Profile</h1>
     
     <div class="container">
-    <section class="profile-image"><img class="u-photo" src="portfolio-images/Avatar.jpg" alt="An AR Avatar image of myself" title="My AR Avatar Image"></section>
+    <section class="profile-image"><img class="u-photo" src="portfolio-images/Avatar.png" alt="An AR Avatar image of myself" title="My AR Avatar Image"></section>
     
     <section class="about">
     <p class="h-card">Hi there! My name is Zandile Gebuza and I am 20 years old. I am a 3rd year Digital Arts student at Wits University majoring in Animation and Interactive Media. 
      I am also a member of the Wits Golden Key Society. I speak three languages: English, IsiZulu and Sesotho but I am also interested in learning Spanish. I love the arts. I love 
      drawing, painting and listening to music. In high school I took Visual Arts as one of my subjects and I also got the opportunity to be in a marimba band. I'm not that good at 
      coding but last year I was able to create 8, pretty decent, games for my assignments, three of which were group work. Anyway, I hope you enjoy(ed) going through my website and 
-     learning about my design process. Check out my <a href="portfolio1.html" target="_blank">portfolio</a> work on the next page.
+     learning about my design process. Check out my social media pages below (To see my Instagram page you have have logged on to Instagram).
     </p>
 
-    <strong>Contact Me:</strong>
-    <ul>
-    <li><a class="u-email" href="mailto:zandilegebuza2@gmail.com">Email</a></li>
-    <li><a class="p-name u-url" href="https://www.instagram.com/success.gebuza?igsh=MWozdnp5OHZ2amhidQ==" target="_blank">Instagram</a></li>
-    <li><a class="p-name u-url" href="https://www.linkedin.com/in/zandile-gebuza1303/" target="_blank">LinkedIn</a></li>
-    </ul>
+    <p>Also, check out my <a href="portfolio1.html" target="_blank">portfolio</a> work on the next page.</p>
+    </section>
+    </div>
+
+    <div class="container2">
+    <section class="socials-images">
+        <a href="https://www.instagram.com/success.gebuza/?hl=en" target="_blank"><img src="/portfolio/portfolio-images/Instagram.png" class="socials" alt="An icon of Instagram" title="Instagram"></a>
+        <a href="https://www.linkedin.com/in/zandile-gebuza1303/" target="_blank"><img src="/portfolio/portfolio-images/LinkedIn.png" class="socials" alt="An icon of LinkedIn" title="LinkedIn"></a>
+    </section>
+    <section class="contact">
+    <form id="contactForm">
+        <label for="contactMessage"><h2>Contact Me</h2></label>
+        <textarea id="contactMessage" name="contactMessage" rows="4" placeholder="Write your message here..."></textarea>
+        <button type="button" class="submit" onclick="submitForm()">Submit</button>
+    </form>
+    <p id="responseMessage"></p>
     </section>
     </div>
 </main>
