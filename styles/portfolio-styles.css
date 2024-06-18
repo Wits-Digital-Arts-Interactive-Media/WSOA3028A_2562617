@@ -65,6 +65,11 @@
     width: 800px;
 }
 
+/*Centre the text*/
+.centre-text{
+    text-align: center;
+}
+
 /*Styling the "Contact Me" form*/
 .contact{
     background-color: rgb(206, 206, 206);
@@ -120,8 +125,16 @@ textarea {
 .socials-images{
     display: flex;
     flex-direction: column;
-    padding-top: 70px;
+    padding-top: 5px;
     gap: 50px;
+}
+
+.socials-images2{
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    gap: 50px;
+    margin-left: 570px;
 }
 
 /*Styling for my profile image*/
@@ -136,6 +149,7 @@ textarea {
     display: flex;
     margin-left: 100px;
     gap: 15px;
+    margin-bottom: 50px;
 }
 
 /*Layout for the "read more" tab*/
@@ -152,13 +166,32 @@ textarea {
     height: 300px;
 }
 
-/*Layout for the game videos*/
-.videos{
-    display: flex;
-    margin: 50px;
-    gap: 50px;
-    width: 200px;
-    height: 200px;
+/*Scaling the videos for the games*/
+.video{
+    width: 600px;
+    height: 350px;
+    margin-left: 25px;
+}
+
+/*Scaling the images for the games*/
+.game{
+    width: 600px;
+    height: 350px;
+}
+
+/*Move the "Back To Top" button to a certain part of the page*/
+.back-to-top{
+    margin-left: 590px;
+}
+
+/*Centre the sub heading*/
+.sub-heading{
+    text-align: center;
+}
+
+.sub-heading2{
+    text-align: center;
+    padding-top: 100px;
 }
 
 /*Media Query for viewing the portfolio page on a small screen*/
