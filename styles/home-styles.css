@@ -1,8 +1,9 @@
 /*Styling for my website title/logo*/
 .home-logo{
     text-align: center;
-    font-size: 50px;
-    font-weight: bold;
+    font-size: 90px;
+    font-family: Ink Free;
+    font-weight: bolder;
     margin-bottom: 30px;
 }
 
@@ -56,5 +57,5 @@
 /*Scaling the home image*/
 .wrap{
     width: 1400px; 
-    height: 600px;
+    height: 700px;
 }
