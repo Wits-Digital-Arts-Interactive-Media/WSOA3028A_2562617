@@ -5,6 +5,18 @@ html{
     font-size: 13pt;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 99.7%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 /*Styling for my website title/logo*/
 .logo{
     font-size: 50px;
@@ -79,6 +91,7 @@ main{
     margin-left: 50px;
     margin-right: 50px;
     line-height: 25px;
+    flex-grow: 1;
 }
 
 /*Styling the all the contents of the article element*/
@@ -184,15 +197,17 @@ button{
 }
 
 /*Styling for the footer*/
-footer{
+footer {
     background-color: rgb(179, 133, 221);
     border-top: 3px solid black;
     padding-bottom: 1%;
     padding-top: 1%;
-    margin: -8px;
+    margin: 0;
+    margin-right: -8px;
     text-align: center;
     font-size: small;
-    font-weight: bold
+    font-weight: bold;
+    flex-shrink: 0;
 }
 
 /*Making elements in this class their true size*/
@@ -216,5 +231,5 @@ footer{
     font-size: 25px;
     text-align: center;
     width: 200px;
-    background: rgb(230, 222, 185);
+    background: rgb(240, 162, 201);
 }

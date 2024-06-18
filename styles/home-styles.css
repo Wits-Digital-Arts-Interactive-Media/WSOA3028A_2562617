@@ -54,7 +54,7 @@
 }
 
 /*Scaling the home image*/
-img{
+.wrap{
     width: 1400px; 
     height: 600px;
 }
