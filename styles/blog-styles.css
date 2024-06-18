@@ -38,6 +38,12 @@
     cursor: default;
 }
 
+.accessibility{
+    width: 600px;
+    height: 300px;
+    padding-bottom: 25px;
+}
+
 /*Media query for the blogs on a small screen: ideally 360X740 size*/
 @media(max-width: 700px){
     

@@ -78,23 +78,58 @@
     height: 200px;
 }
 
+.colour-use{
+    padding-bottom: 50px;
+}
+
 .overview{
+    margin-top: 10px;
+    padding-bottom: 50px;
+    width: 1300px;
+    height: 650px;
+}
+
+.overview2{
+    margin-top: 10px;
     width: 1300px;
     height: 650px;
 }
 
 .font-image{
-    width: 320px;
+    width: 325px;
     height: 400px;
 }
 
+.font-image2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .google-image{
-    width: 700px;
-    height: 250px;
+    width: 910px;
+    height: 400px;
 }
 
 .font-images{
     display: flex;
+    gap: 45px;
+    margin-bottom: 30px;
+}
+
+.font-images2{
+    display: flex;
+    gap: 45px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+.responsive3{
+    margin-left: 100px;
+}
+
+
+.centre-text{
+    text-align: center;
 }
 
 /*Styling for the "Back To Top" button*/
