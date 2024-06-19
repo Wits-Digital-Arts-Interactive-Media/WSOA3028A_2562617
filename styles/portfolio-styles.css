@@ -135,7 +135,7 @@ textarea {
     padding-top: 5px;
     padding-bottom: 25px;
     gap: 50px;
-    margin-left: 570px;
+    margin-left: 500px;
 }
 
 /*Styling for my profile image*/
@@ -148,9 +148,21 @@ textarea {
 /*Layout for the artworks*/
 .art{
     display: flex;
-    margin-left: 100px;
+    margin-left: 0;
     gap: 15px;
     margin-bottom: 50px;
+}
+
+.t-art{
+    margin-left: 40px;
+}
+
+.d-art{
+    margin-left: 100px;
+}
+
+.g-art{
+    margin-left: 90px;
 }
 
 /*Layout for the "read more" tab*/
@@ -163,8 +175,14 @@ textarea {
 
 /*Scaling the images of the artworks*/
 .artwork{
-    width: 300px; 
+    width: 350px; 
     height: 500px;
+}
+
+/*Scaling the images of the artworks*/
+.digital-artwork{
+    width: 600px; 
+    height: 400px;
 }
 
 /*Scaling the videos for the games*/
@@ -188,7 +206,7 @@ video{
 
 /*Move the "Back To Top" button to a certain part of the page*/
 .back-to-top{
-    margin-left: 590px;
+    margin-left: 620px;
 }
 
 /*Centre the sub heading*/
