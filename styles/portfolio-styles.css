@@ -57,12 +57,12 @@
     background: rgb(230, 222, 185);
     border: 3px solid black;
     border-radius: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 15px; 
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 35px; 
     margin-left: 30px;
     text-align: justify;
-    width: 800px;
+    width: 700px;
 }
 
 /*Centre the text*/
@@ -78,9 +78,9 @@
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 15px; 
-    margin-left: 30px;
+    margin-left: 50px;
     text-align: justify;
-    width: 800px;
+    width: 700px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -127,6 +127,7 @@ textarea {
     flex-direction: column;
     padding-top: 5px;
     gap: 50px;
+    margin-left: 60px;
 }
 
 .socials-images2{
@@ -139,8 +140,8 @@ textarea {
 
 /*Styling for my profile image*/
 .u-photo{
-    margin-left: 20px;
-    width: 440px;
+    margin-left: 80px;
+    width: 460px;
     height: 440px;
 }
 
