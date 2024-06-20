@@ -69,7 +69,6 @@
         on <time class="dt-published" datetime="2024-04-">06 May 2024</time>
     </p>
 
-    <h3>The benefits and challenges of responsive design</h3>
     <p>According to WebFX, these are the benefits of responsive design:</p>
     <ul>
         <li>Cost effectiveness</li>
@@ -90,56 +89,61 @@
 
     <p>I believe that because not everyone has a desktop so it's important to design websites so that they can be viewed from mobile devices. 
        Accessibility is not about building for people living with disabilities but it is about making sure that you reach the widest audience 
-       possible.</p>
+       possible. Below are some of the things that I have done to make my website resonsive and accessible.</p>
+
+       <h3>Layout of the website</h3>
+       <p>Take screenshots of the responsive layouts of the website</p>
+
+       <h3>Colour Blindness</h3>
+       <div class="side-by-side">
+       <img src="blog-images/Achromatopsia - Without colour.png" class="accessibility" alt="A screenshot showing how someone with Achromatopsia sees my website" title="Achromatopsia Version of my Website">
+       <p class="info">Achromatopsia - Without colour</p>
+       </div>
    
-    <h3>Reflection on the assigned readings</h3>
-    <p><cite>Values at play: design tradeoffs in socially-oriented game design</cite></p>
-    <p>The first reading by Flanagan et. al, talks about designers having to be aware of the ways in which the artefacts they create can <q>embody 
-        political, social, and ethical values</q> (Flanagan et al., 2005, p.751). It starts by stating that many designers struggle to balance their 
-        own values with those of users and society because there hasn't been much practical guidance on how to actually incorporate those values 
-        into the design process. Therefore, they created the RAPUNSEL project and the article outline its Values At Play as case study for how 
-        others can carry their own design processes. The Value At Play process starts with Value Sensitive Design then goes to Participatory Design, 
-        moves on to Reflective Practice, then ends with Critical Technical Practice. This process was explained in detail and the reading provided a 
-        lot of definitions but I chose not to include them because they weren't relevant to me.</p>
-        
-    <p>What was relevant was the part where they said, <blockquote>"The excellence of technologies is judged by the value of privacy, community, 
-        freedom from bias, universal usability, autonomy, informed consent, and trust" (Flanagan et al., 2005, p.751).</blockquote> These concepts 
-        are important for web development. Websites have to value the privacy of users and they should ask for consent when collecting the user's 
-        information. Websites should be developed by a diverse community of people because that makes the websites well-designed, functional, 
-        accessible, and ethical. Websites should not be baised or be in favour of some users but not others. In general, websites should have 
-        universal usability. They should cater to different kinds of users, people living with disabilities, people who only have mobile devices, 
-        people who have limited data etc. If I were taking Game Design the VAP principles might have been helpful but in terms of web dev, this is 
-        what I found to be useful from the reading.</p>
-        
-    <p><cite>A game design methodology to incorporate social activist themes</cite></p>
-    <p>The second reading by Flanagan and Nissenbaum is basically a continuation or extension of the ideas discussed in the previous one. Flanagan 
-        and Nissenbaum talk about the design practices of Values at Play which is a guide for the process of making games. They also talk about 
-        developing tested methods that include activist social themes in game design. And this is done by them exploring the different ways that 
-        games can educate and promote activism, focusing on themes from RAPUNSEL, which is catered towards young women (Flanagan and Nissenbaum, 
-        2007).</p>
-       
-    <p>Like the first one, I struggled a bit to find a link between this reading and our work in IM. However, this next quote was a bit helpful. 
-        <blockquote>"Implementation is the heart of design, wherein the central concern is transforming, or 'translating' ideas, intentions, 
-        requirements and concepts into concrete design specifications and to lines of code in a program" (Flanagan and Nissenbaum, 2007, p.185).
-       </blockquote> This quote is referring to design in a general sense so it's easy to connect it to web development. It basically states, for 
-        instance, that after planning out my website through the IxD process, wireframes, style-guide etc. I would need to implement that planning 
-        into the code that I write. If I planned for my page to be red, I will style it in CSS to appear as red. If I want my images to move across 
-        the screen, I will animate them using JS. And, I will use Html to replicate how I planned layouts with wireframes.</p>
+       <div class="side-by-side">
+       <img src="blog-images/Deuteranopia - Green colourblindness.png" class="accessibility" alt="A screenshot showing how someone with Deuteranopia sees my website" title="Deuteranopia Version of my Website">
+       <p class="info">Deuteranopia - Green colourblindness</p>
+       </div>
    
-<div class="references">
-    <h3>References</h3>
-    <ul>
-    <li>Flanagan, M. Howe, D.C. and Nissenbaum, H. (2005). <cite>‘Values at play: design tradeoffs in socially-oriented game design’</cite>. 
-        in Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. CHI05: CHI 2005 Conference on Human Factors in Computing 
-        Systems, Portland Oregon USA: ACM, pp. 751–760.</li>
-    
-    <li>Flanagan, M. and Nissenbaum, H. (2007). <cite>‘A game design methodology to incorporate social activist themes’</cite>. in Proceedings 
-        of the SIGCHI Conference on Human Factors in Computing Systems. CHI07: CHI Conference on Human Factors in Computing Systems, San Jose 
-        California USA: ACM, pp. 181–190.</li>
-    
-    <li>WebFX. (n.d.). <cite>Why is Responsive Design So Important?</cite> [online] Available at: <a href=
-        "https://www.webfx.com/web-design/learn/why-responsive-design-important/" target="_blank">
-         https://www.webfx.com/web-design/learn/why-responsive-design-important/</a>.</li>
+       <div class="side-by-side">
+       <img src="blog-images/Protanopia - Red colourblindness.png" class="accessibility" alt="A screenshot showing how someone with Protanopia sees my website" title="Protanopia Version of my Website">
+       <p class="info">Protanopia - Red colourblindness</p>
+       </div>
+   
+       <div class="side-by-side">
+       <img src="blog-images/Tritanopia - Blue colourblindness.png" class="accessibility" alt="A screenshot showing how someone with Tritanopia sees my website" title="Tritanopia Version of my Website">
+       <p class="info">Tritanopia - Blue colourblindness</p>
+       </div>
+   
+       <h3>Screen Readers</h3>
+       <div class="side-by-side">
+       <img src="blog-images/Visual ARIA 1.png" class="accessibility" alt="A screenshot showing how a sreen reader engages with my website" title="ARIA Labels">
+       <p class="info">Explanation</p>
+       </div>
+   
+       <div class="side-by-side">
+       <img src="blog-images/Visual ARIA 2.png" class="accessibility" alt="A 2nd screenshot showing how a sreen reader engages with my website" title="ARIA Labels">
+       <p class="info">Explanation</p>
+       </div>
+   
+       <div class="side-by-side">
+       <img src="blog-images/Visual ARIA 3.png" class="accessibility" alt="A 3rd screenshot showing how a sreen reader engages with my website" title="ARIA Labels">
+       <p class="info">Explanation</p>
+       </div>
+          
+       <div class="references">
+       <h3>References</h3>
+       <ul>
+        <li>Badia, A.(2024). <cite>Agathebadia/colorblind-extension</cite>. [online] GitHub. Available at: 
+            <a href="https://github.com/Agathebadia/colorblind-extension" target="_blank">https://github.com/Agathebadia/colorblind-extension</a>. 
+            [Accessed 18 Jun. 2024].</li>
+
+        <li>WebFX. (n.d.). <cite>Why is Responsive Design So Important?</cite> [online] Available at: <a href=
+            "https://www.webfx.com/web-design/learn/why-responsive-design-important/" target="_blank">
+             https://www.webfx.com/web-design/learn/why-responsive-design-important/</a>.</li>
+
+        <li>WhatSock. (2024). <cite>WhatSock/visual-aria</cite>. [online] GitHub. Available at: <a href=
+            "https://github.com/WhatSock/visual-aria" target="_blank">https://github.com/WhatSock/visual-aria</a>. [Accessed 18 Jun. 2024].</li>
     </ul>
 
     <div class="top-button"><button class="back-to-top" data-target="#top">Back To Top</button></div>
