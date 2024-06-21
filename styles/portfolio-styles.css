@@ -153,8 +153,15 @@ textarea {
     margin-bottom: 50px;
 }
 
+.art2{
+    display: flex;
+    margin-left: 10px;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
 .t-art{
-    margin-left: 40px;
+    margin-left: 170px;
 }
 
 .d-art{
@@ -169,10 +176,23 @@ textarea {
 .read-more{
     background: rgb(167, 226, 220);
     border: 3px solid black;
+    border-radius: 5px;
     text-align: center;
     padding: 10px;
     width: 58%;
     margin-left: 20%;
+    cursor: pointer;
+}
+
+.read-more-2{
+    background: rgb(167, 226, 220);
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+    margin-left: 42%;
+    cursor: pointer;
 }
 
 .read-more1{
@@ -180,6 +200,7 @@ textarea {
     margin-left: 40px;
     list-style: none;
     padding-bottom: 5%;
+    cursor: pointer;
 }
 
 .read-more2{
@@ -187,12 +208,19 @@ textarea {
     margin-left: -15px;
     list-style: none;
     padding-bottom: 5%;
+    cursor: pointer;
 }
 
 /*Scaling the images of the artworks*/
 .artwork{
     width: 350px; 
     height: 500px;
+}
+
+.artwork2{
+    width: 800px; 
+    height: 500px;
+    margin-left: 150px;
 }
 
 /*Scaling the images of the artworks*/
@@ -202,15 +230,18 @@ textarea {
 }
 
 /*Scaling the videos for the games*/
-video{
+.video{
     width: 600px;
-    height: 350px;
+    height: 365px;
     margin-left: 25px;
+    margin-top: -15px;
 }
 
 /*Move the animation video to a certain part of the page*/
 .anim-video{
-    margin-left: 400px;
+    margin-left: 215px;
+    width: 1000px;
+    border: 3px solid black;
 }
 
 /*Scaling the images for the games*/
@@ -230,7 +261,7 @@ video{
 }
 
 .sub-heading2{
-    text-align: center;
+    margin-left: 480px;
     padding-top: 100px;
 }
 

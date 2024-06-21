@@ -189,6 +189,18 @@
     width: 200px;
 }
 
+.top4{
+    background: rgb(167, 226, 220);
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-top: -10px;
+    margin-left: 850px;
+    padding: 25px;
+    font-size: 25px;
+    text-align: center;
+    width: 200px;
+}
+
 /*Media query for scaling down the images and the "Back To Top" button on a small screen*/
 @media(max-width: 700px){
 
