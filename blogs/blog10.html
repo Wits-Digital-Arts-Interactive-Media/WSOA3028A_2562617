@@ -89,51 +89,66 @@
 
     <p>I believe that because not everyone has a desktop so it's important to design websites so that they can be viewed from mobile devices. 
        Accessibility is not about building for people living with disabilities but it is about making sure that you reach the widest audience 
-       possible. Below are some of the things that I have done to make my website resonsive and accessible.</p>
+       possible. Below are some of the things that I have done to make my website responsive and accessible.</p>
 
-       <h3>Layout of the website</h3>
-       <p>Take screenshots of the responsive layouts of the website</p>
+       <h3>Different Devices</h3>
+       <p>I am currently working on making my website repsonive on different sized devices. The sizes I have targeted is 360x740 which is the average screen size for a 
+        smartphone and 1024x704 which is the average size for a tablet or mini laptop. The default size is the laptop/desktop screen size that the website was created from.
+       </p>
        <div class="side-by-side">
        <img src="blog-images/Responsive 1.png" class="resize1" alt="A screenshot of my website in the Developer Tools view of 360x740" title="Developer Tools Mobile View">
        <img src="blog-images/Responsive 2.png" class="resize2" alt="A screenshot of my website in the Developer Tools view of 1024x704" title="Developer Tools Tablet View">
        </div>
        <ul>
-        <li class="move-words">Image 1</li>
-        <li class="move-words">Image 2</li>
+        <li class="move-words">As seen in the first image, I was able to make my page content responsive by having the blog cards lay out as a column instead of a row. The nav menu also changes from being a 
+            horizontal row to a column. However, I was not able to make the header big enough to fit the nav menu. This is something that I will work on moving forward. I will either make the header 
+            bigger or remove the nav menu and add a media query in CSS and script in JS so that it appears when a hamburger menu button is pressed.</li>
+        <li class="move-words">As seen in the second image, the tablet screen is correctly sized. Everything is visible and the images were able to get smaller so that they can fit the new screen size.</li>
        </ul>
 
-       <div class="side-by-side">
-       <img src="blog-images/Responsive 3.png" class="resize3" alt="A screenshot of my website in the Developer Tools view of 1500x847" title="Developer Tools Desktop View">
-       <p class="info"></p>
-       </div>
-
-       <h3>Colour Blindness</h3>
-       <div class="side-by-side">
-       <img src="blog-images/Achromatopsia - Without colour.png" class="accessibility" alt="A screenshot showing how someone with Achromatopsia sees my website" title="Achromatopsia Version of my Website">
-       <p class="info">Achromatopsia - Without colour</p>
-       </div>
-   
-       <div class="side-by-side">
-       <img src="blog-images/Deuteranopia - Green colourblindness.png" class="accessibility" alt="A screenshot showing how someone with Deuteranopia sees my website" title="Deuteranopia Version of my Website">
-       <p class="info">Deuteranopia - Green colourblindness</p>
-       </div>
-   
-       <div class="side-by-side">
-       <img src="blog-images/Protanopia - Red colourblindness.png" class="accessibility" alt="A screenshot showing how someone with Protanopia sees my website" title="Protanopia Version of my Website">
-       <p class="info">Protanopia - Red colourblindness</p>
-       </div>
-   
-       <div class="side-by-side">
-       <img src="blog-images/Tritanopia - Blue colourblindness.png" class="accessibility" alt="A screenshot showing how someone with Tritanopia sees my website" title="Tritanopia Version of my Website">
-       <p class="info">Tritanopia - Blue colourblindness</p>
-       </div>
-   
        <h3>Screen Readers</h3>
        <div class="side-by-side">
        <img src="blog-images/Visual ARIA 1.png" class="accessibility" alt="A screenshot showing how a sreen reader engages with my website" title="ARIA Labels">
-       <p class="info">Explanation</p>
+       <p class="info">I want my website to be accessible to people who use screen readers. This is something that I did not know about before doing this course but now it is something that I want to make a 
+        priority, going forward. As seen in the image of the left, my website images have alt tags, titles, descriptions and ARIA labels. This means that even though a screen reader user cannot actually see 
+        the images, they will know what the image is called and what elements it contains.</p>
        </div>
-          
+
+       <h3>Colour Blindness</h3>
+       <p>Just like the above section, I want my website to be accessible to users with colourblindness. I found an extension in the Chrome Web Store called "Colorblind Emulator" that changes what my website looks 
+        like according to different types of colourblindness. There are 4 types and each one is a spectrum but for this purpose, I chose the ones that show the most variation.</p>
+       
+       <p><strong>Achromatopsia</strong> is colourblindness where a person cannot see any colour at all. </p>
+       <div class="side-by-side">
+       <img src="blog-images/Achromatopsia - Without colour.png" class="accessibility" alt="A screenshot showing how someone with Achromatopsia sees my website" title="Achromatopsia Version of my Website">
+       <p class="info2">As seen in the image on the left, my website is completely greyed out and the only dark parts are the text that is in a black colour. The background colours however, still have some 
+        variation. The header section is originally coloured in a dark purple and the middle section is light purple and in the image, the header is a darker grey than the middle section. This means that 
+        even though the rest of the page is one tone, a person with Achromatopsia will be able to differentiate the header from the content/middle section of the page.</p>
+       </div>
+   
+       <p><strong>Deuteranopia</strong> is green colourblindness.</p>
+       <div class="side-by-side">
+       <img src="blog-images/Deuteranopia - Green colourblindness.png" class="accessibility" alt="A screenshot showing how someone with Deuteranopia sees my website" title="Deuteranopia Version of my Website">
+       <p class="info2"><br>As seen in the image on the left, my website is a bit grey but the colours are more noticeable. Instead of the bright purple that is seen in full colour, a person with Deuteranopia sees a 
+        dull navy blue or greyish purple colour. Also, the nav menu buttons that were pink are now yellow/tan. This means that people with this condition will be able to differentiate the nav menu from the 
+        other sections on the page. As well as the images from the greyish background.</p>
+       </div>
+
+       <p><strong>Tritanopia</strong> is blue colourblindness.</p>
+       <div class="side-by-side">
+       <img src="blog-images/Tritanopia - Blue colourblindness.png" class="accessibility" alt="A screenshot showing how someone with Tritanopia sees my website" title="Tritanopia Version of my Website">
+       <p class="info2">As seen in the image on the left, my website background is greyed out. This means that people with Tritanopia see purple as grey, which makes sense given that purple is blue+red. However, 
+        the nav menu buttons that were originally in a bright pink colour now look a bit dull and are closer to a light red colour. What is surprising, though, is that the blog images/cards were originally in a light 
+        blue colour and in this image, they still look the same, just less bright. However, this is great for variation, because it means that the images will stand out from the rest of the page.</p>
+       </div> 
+   
+       <p><strong>Protanopia</strong> is red colourblindness.</p>
+       <div class="side-by-side">
+       <img src="blog-images/Protanopia - Red colourblindness.png" class="accessibility" alt="A screenshot showing how someone with Protanopia sees my website" title="Protanopia Version of my Website">
+       <p class="info2"><br>As seen in the image on the left and the second one above, Protanopia and Deuteranopia are similar. However, people with Protanopia will see the blog images/cards in the same colour as the 
+        background than those with Deuteranopia. Also, people with Protanopia will see the header and nav menu buttons as much brighter than the other one.</p>
+       </div>
+      
        <div class="references">
        <h3>References</h3>
        <ul>
