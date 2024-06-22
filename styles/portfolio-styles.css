@@ -138,6 +138,10 @@ textarea {
     margin-left: 500px;
 }
 
+.socials-images3{
+    display: none;
+}
+
 /*Styling for my profile image*/
 .u-photo{
     margin-left: 80px;
@@ -314,11 +318,6 @@ textarea {
 }
 
 /*Responsive Design for the Portfolio on Smartphones*/
-@media(max-width: 470px){
-
-}
-
-/*Responsive Design for the Portfolio on Tablets*/
 @media(max-width: 560px){
     .art{
         display: block;
@@ -334,15 +333,38 @@ textarea {
         margin-left: 50px;
     }
 
-    .profile-image img{
-        width: 100%;
-        height: 80%;
+    .profile-image{
+        margin-right: 200px;
     }
 
     .profile{
-        margin-left: -10px;
+        margin-left: 10px;
         margin-right: 10px;
     }
+
+   .container2{
+        margin-left: 120px;
+   }
+
+   .socials{
+     width: 25%;
+     margin-left: 10px;
+     margin-right: 10px;
+   }
+
+   .socials-images{
+        display: none;
+   }
+
+   .socials-images3{
+        display: contents;
+        gap: 10px;
+    }
+}
+
+/*Responsive Design for the Portfolio on Smartphones & Tablets*/
+@media(max-width: 760px){
+   
 }
 
 /*Responsive Design for the Portfolio on Small Laptops*/

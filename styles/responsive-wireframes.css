@@ -1,4 +1,4 @@
-/*Scale down the images when the screen is 1024x642*/
+/*Scale down the images when the screen is 1024 x 864*/
 @media(max-width: 1024px){
     .responsive img{
         width: 100%;

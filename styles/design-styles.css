@@ -210,17 +210,13 @@
     width: 200px;
 }
 
-/*Responsive Design for Smartphones*/
-@media(max-width: 470px){
-
-}
-
-/*Scale down the images and the "Back To Top" buttons for Tablets*/
+/*Scale down the images and the "Back To Top" buttons for Smartphones*/
 @media(max-width: 560px){
 
     main{
         margin-left: 15px;
     }
+
     .responsive img{
         width: 100%;
         height: 100%;
@@ -264,6 +260,34 @@
 
     .h-entry{
         width: 220px;
+    }
+}
+
+/*Responsive Design for Smartphones & Tablets*/
+@media(max-width: 760px){
+    .h-entry{
+        width: 330px;
+    }
+
+    .top2{
+        display: none;
+    }
+
+    .google-image{
+        display: none;
+    }
+
+    .font-images{
+        display: block;
+        flex-direction: column;
+    }
+
+    .font-images2{
+        display: block;
+    }
+
+    .top4{
+        display: none;
     }
 }
 

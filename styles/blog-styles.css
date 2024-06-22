@@ -169,11 +169,6 @@ main{
 }
 
 /*Responsive Design for Blogs on Smartphones*/
-@media(max-width: 470px){
-
-}
-
-/*Responsive Design for Blogs on Tablets*/
 @media(max-width: 560px){
     
     .blogs{
@@ -182,11 +177,10 @@ main{
    
     main{
     margin-left: 25px;
-    width: 320px;
+    width: 420px;
     }
 
     .h-entry{
-        margin-left: -25px;
         width: 75%;
     }
 
@@ -200,6 +194,14 @@ main{
 
     .artist{
     display: none;    
+    }
+}
+
+/*Responsive Design for Blogs on Smartphones & Tablets*/
+@media(max-width: 760px){
+    
+    .back-to-top{
+        display: none;
     }
 }
 
