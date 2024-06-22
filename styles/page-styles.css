@@ -4,6 +4,8 @@ html{
     font-family: Futura,Trebuchet MS,Arial,sans-serif; 
     font-size: 13pt;
     cursor: url("../images/Cursor.png"), auto;
+    scrollbar-color: rgb(179, 133, 221) rgba(0, 0, 0, 0.103);
+    scrollbar-width: thin;
 }
 
 /*Layout for the html and body elements*/
@@ -35,6 +37,12 @@ header{
     border-bottom: 3px solid black;
     padding-bottom: 20px;
     margin: -8px;
+}
+
+/*Styling for the Hamburger Menu Button*/
+.hamburger{
+    margin-left: 50%;
+    display: none;
 }
 
 .main-nav ul{
