@@ -1,6 +1,6 @@
-/*I was able to create responsiveness for the sizes 1500 x 800, 1024 x 642 and 360 x 740.
- I tried to make the website responsive throughout but it was a bit difficult.
- However, I plan to improve the resonsiveness as I continue developing the website.*/
+/* The three form factors that I have created responsiveness for are smartphones, tablets, and small laptops.
+   The sizes are: 470 x 815 for phones, 767 x 922 for tablets, and 1024 x 864 for small laptops.
+*/
 
 /*Scale for the homepage cards/images*/
 .cards img {
@@ -9,7 +9,6 @@
     object-fit: cover; 
 }
 
-/*Responsive Design for Large Screens: 1500x800*/
 @media (max-width: 1500px) {
     /*Blog cards*/
     .cards {
@@ -29,7 +28,7 @@
     }
 }
 
-/*Responsive Design for Medium Screens: 1024x642*/
+/*Responsive Design for Small Laptops*/
 @media (max-width: 1024px) {
 
     html{
@@ -63,8 +62,8 @@
     }
 }
 
-/*Responsive Design for Small Screens: up to 700px*/
-@media (max-width: 700px) {
+/*Responsive Design for Tablets*/
+@media (max-width: 767px) {
 
     html{
         font-size: smaller;
@@ -83,7 +82,7 @@
     }
 }
 
-@media(max-width: 700px){
+@media(max-width: 767px){
 
     .logo{
         font-size: 35px;
@@ -110,8 +109,8 @@
     }
 }
 
-/*Responsive Design for the nav menu on small screens*/
-@media (max-width: 360px) {
+/*Responsive Design for the nav menu on Smartphones*/
+@media (max-width: 470px) {
 
     header{
         justify-content: center;

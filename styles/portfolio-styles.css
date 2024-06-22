@@ -172,7 +172,7 @@ textarea {
     margin-left: 90px;
 }
 
-/*Layout for the "read more" tab*/
+/*Layout for the "read more" tabs*/
 .read-more{
     background: rgb(167, 226, 220);
     border: 3px solid black;
@@ -234,7 +234,6 @@ textarea {
     margin-left: 150px;
 }
 
-/*Scaling the images of the artworks*/
 .digital-artwork{
     width: 700px; 
     height: 400px;
@@ -295,8 +294,8 @@ textarea {
     padding-bottom: 10px;
 }
 
-/*Media Query for viewing the portfolio page on a small screen*/
-@media(max-width: 700px){
+/*Responsive Design for the Portfolio on Smartphones*/
+@media(max-width: 767px){
     .art{
         display: block;
         margin-left: -25px;
@@ -322,7 +321,7 @@ textarea {
     }
 }
 
-/*Media Query for viewing the portfolio page on a medium screen*/
+/*Responsive Design for the Portfolio on Small Laptops*/
 @media(max-width: 1024px){
 
     .about{

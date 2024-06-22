@@ -167,8 +167,8 @@ main{
     width: 0%;
 }
 
-/*Media query for the blogs on a small screen*/
-@media(max-width: 700px){
+/*Responsive Design for Blogs on Tablets*/
+@media(max-width: 767px){
     
     .blogs{
         display: none;    
@@ -197,7 +197,7 @@ main{
     }
 }
 
-/*Media query for the blogs on a medium screen*/
+/*Responsive Design for Blogs on Small Laptops*/
 @media(max-width: 1024px){
     .side-by-side{
         display: block;

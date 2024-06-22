@@ -3,6 +3,7 @@ html{
     background:rgb(209, 182, 235);
     font-family: Futura,Trebuchet MS,Arial,sans-serif; 
     font-size: 13pt;
+    cursor: url("../images/Cursor.png"), auto;
 }
 
 /*Layout for the html and body elements*/
@@ -75,6 +76,10 @@ header{
 .main-nav li.active:hover{
     background: rgb(228, 190, 171);
     font-weight: bold;
+}
+
+a{
+    cursor: url("../images/Cursor.png"), auto;
 }
 
 /*Centering the page name/heading and adding space above and below it*/

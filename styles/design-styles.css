@@ -155,7 +155,7 @@
     height: 100%;
 }
 
-/*Styling for the "Back To Top" button*/
+/*Styling for the "Back To Top" buttons*/
 .top{
     background: rgb(167, 226, 220);
     border: 3px solid black;
@@ -201,8 +201,8 @@
     width: 200px;
 }
 
-/*Media query for scaling down the images and the "Back To Top" button on a small screen*/
-@media(max-width: 700px){
+/*Scale down the images and the "Back To Top" buttons for Smartphones*/
+@media(max-width: 767px){
 
     main{
         margin-left: 15px;
@@ -230,12 +230,30 @@
         font-weight: bold;
     }
 
+    .top3{
+        margin-left: 60px;
+        width: 100px;
+        height: 50px;
+        padding: 0;
+        font-size: small;
+        font-weight: bold;
+    }
+
+    .top4{
+        margin-left: 60px;
+        width: 100px;
+        height: 50px;
+        padding: 0;
+        font-size: small;
+        font-weight: bold;
+    }
+
     .h-entry{
         width: 220px;
     }
 }
 
-/*Scale down the image when the screen is 1024x642 in size*/
+/*Scale down the images and the "Back To Top" buttons for Small Laptops*/
 @media(max-width: 1024px){
     .responsive2 img{
         width: 100%;
@@ -270,6 +288,14 @@
     } 
     
     .top2{
+        margin-left: 300px;
+    }
+
+    .top3{
+        margin-left: 300px;
+    }
+
+    .top4{
         margin-left: 300px;
     }
 }

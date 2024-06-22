@@ -1,4 +1,4 @@
-/*Styling for my website title/logo*/
+/*Styling for my website title*/
 .home-logo{
     text-align: center;
     font-size: 90px;
@@ -52,6 +52,7 @@
 #Message{
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 /*Scaling the home image*/
