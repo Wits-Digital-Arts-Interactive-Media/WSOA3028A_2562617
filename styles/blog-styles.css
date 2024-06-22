@@ -40,8 +40,8 @@
 
 /*Scale for the Accessibility section's images*/
 .accessibility{
-    width: 650px;
-    height: 325px;
+    width: 100%;
+    height: 100%;
     padding-bottom: 25px;
 }
 
@@ -132,22 +132,15 @@ main{
 }
 
 .resize1{
-    width: 300px;
-    height: 500px;
-    padding-left: 35px;
+    width: 25%;
+    height: 50%;
     padding-bottom: 10px;
 }
 
 .resize2{
     padding-left: 20px;
-    height: 500px; 
-}
-
-.resize3{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    width: 800px;
-    height: 500px;
+    height: 50%; 
+    width: 53%;
 }
 
 /*Styling for the reading progress bar*/
@@ -165,6 +158,10 @@ main{
     height: 100%;
     background: rgb(240, 162, 201);
     width: 0%;
+}
+
+.responsive-button{
+    display: none;
 }
 
 /*Responsive Design for Blogs on Tablets*/
@@ -207,14 +204,42 @@ main{
         margin: 0;
     }
 
+    .resize1{
+        width: 30%;
+    }
+
+    .resize2{
+        width: 62%;
+    }
+
     .responsive img{
         width: 100%;
         height: 100%;
     }
-    
+
+    .top-button{
+        margin-left: 1%;
+    }
+
+    .top-button2{
+        margin-left: 1%;
+    }
+
+    .side-button{
+        display: none;
+    }
+
+    .responsive-button{
+        display: contents;
+    }
+
     .back-to-top{
-        margin-left: -10px;
-        margin-right: 10px;
-        width: 180px;
+        margin-left: 20%;
+        font-size: medium;
+        width: 35%;
+    }
+
+    .references{
+        width: 111.5%;
     }
 }
