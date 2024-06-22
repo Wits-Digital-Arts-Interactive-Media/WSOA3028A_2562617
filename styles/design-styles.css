@@ -57,20 +57,30 @@
     padding-bottom: 25px;
 }
 
+.wireframes{
+    gap: 20px;
+    margin-left: 10px;
+}
+
 .desktop-wireframe{
-    width: 950px;
-    height: 650px;
-    margin-left: 50px;
+    width: 100%;
+    height: 100%;
 }
 
 .mobile-wireframe{
-    width: 330px; 
-    height: 650px;
+    width: 100%; 
+    height: 100%;
+}
+
+.description{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100%;
 }
 
 .mind-map{
-    width: 1300px;
-    height: 800px;
+    width: 100%;
+    height: 100%;
 }
 
 .mind-map3{
@@ -94,14 +104,14 @@
 .overview{
     margin-top: 10px;
     padding-bottom: 50px;
-    width: 1300px;
-    height: 650px;
+    width: 100%;
+    height: 100%;
 }
 
 .overview2{
     margin-top: 10px;
-    width: 1300px;
-    height: 650px;
+    width: 100%;
+    height: 100%;
 }
 
 .font-image{
@@ -115,8 +125,7 @@
 }
 
 .google-image{
-    width: 100%;
-    height: 100%;
+    width: 70%;
 }
 
 .font-images{
@@ -202,7 +211,7 @@
 }
 
 /*Scale down the images and the "Back To Top" buttons for Smartphones*/
-@media(max-width: 767px){
+@media(max-width: 560px){
 
     main{
         margin-left: 15px;
@@ -255,14 +264,7 @@
 
 /*Scale down the images and the "Back To Top" buttons for Small Laptops*/
 @media(max-width: 1024px){
-   .wireframes{
-    gap: 10%;
-   }
-
-   .style-guide{
-    width: 700px;
-   }
-
+  
    .font-images{
     margin-left: -20px;
     gap: 20px;
@@ -273,13 +275,17 @@
    }
 
    .font-images2{
-    margin-left: -20px;
+    margin-left: 80px;
     gap: 20px;
    }
 
    .font-image2{
-    margin-left: 200px;
+    margin-left: 300px;
     margin-bottom: -50px;
+   }
+
+   .mind-map3{
+    margin-bottom: -100px;
    }
 
    .info{
@@ -287,7 +293,7 @@
    }
 
    .description{
-    width: 595px;
+    margin-left: -25px;
     }
 
     .responsive2 img{
@@ -323,19 +329,19 @@
     } 
     
     .top2{
-        margin-left: 190px;
+        margin-left: 290px;
         width: 30%;
         font-size: medium;    
     }
 
     .top3{
-        margin-left: 150px;
+        margin-left: 270px;
         width: 30%;
         font-size: medium;
     }
 
     .top4{
-        margin-left: 180px;
+        margin-left: 280px;
         margin-top: 15px;
         width: 30%;
         font-size: medium;    

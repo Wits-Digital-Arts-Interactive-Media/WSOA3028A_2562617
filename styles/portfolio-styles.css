@@ -295,7 +295,7 @@ textarea {
 }
 
 /*Responsive Design for the Portfolio on Smartphones*/
-@media(max-width: 767px){
+@media(max-width: 560px){
     .art{
         display: block;
         margin-left: -25px;
@@ -325,7 +325,23 @@ textarea {
 @media(max-width: 1024px){
 
     .about{
-        width: 350px;
+        padding-top: 10px;
+        margin-top: 10px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .container2{
+        gap: 20px;
+    }
+
+    .socials-images{
+        flex-direction: row;
+        margin-left: 80px;
+    }
+
+    .contact{
+        margin-left: -120px;
     }
 
     .art{
@@ -343,5 +359,11 @@ textarea {
 
     .videos{
         margin-left: 0;
+    }
+
+    .u-photo{
+        margin-left: 190px;
+        width: 50%;
+        height: 100%;
     }
 }

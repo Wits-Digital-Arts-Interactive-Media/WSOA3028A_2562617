@@ -129,8 +129,8 @@ h2{
     width: 109%;
 }
 
-/*Responsive Design for Essays on Smartphones*/
-@media(max-width: 767px){
+/*Responsive Design for Essays on Tablets*/
+@media(max-width: 560px){
 
     .essay-wrap{
         width: 85%;
