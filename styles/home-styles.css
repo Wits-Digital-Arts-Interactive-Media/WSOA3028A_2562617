@@ -65,6 +65,16 @@
     padding-top: 10%;
 }
 
+/*Responsive Design for the Homepage on Smartphones*/
+@media(max-width: 470px){
+
+}
+
+/*Responsive Design for the Homepage on Tablets*/
+@media(max-width: 560px){
+
+}
+
 /*Responsive Design for the Homepage on Small Laptops*/
 @media(max-width: 1024px){
     .button-container{

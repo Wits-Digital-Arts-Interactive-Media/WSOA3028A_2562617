@@ -129,6 +129,11 @@ h2{
     width: 109%;
 }
 
+/*Responsive Design for Essays on Smartphones*/
+@media(max-width: 470px){
+
+}
+
 /*Responsive Design for Essays on Tablets*/
 @media(max-width: 560px){
 

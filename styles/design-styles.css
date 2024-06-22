@@ -210,7 +210,12 @@
     width: 200px;
 }
 
-/*Scale down the images and the "Back To Top" buttons for Smartphones*/
+/*Responsive Design for Smartphones*/
+@media(max-width: 470px){
+
+}
+
+/*Scale down the images and the "Back To Top" buttons for Tablets*/
 @media(max-width: 560px){
 
     main{

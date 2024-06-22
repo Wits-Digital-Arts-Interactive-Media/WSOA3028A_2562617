@@ -80,9 +80,6 @@
     .center2 {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
-}
-
-@media(max-width: 560px){
 
     .logo{
         font-size: 35px;

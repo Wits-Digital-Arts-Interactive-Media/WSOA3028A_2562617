@@ -168,6 +168,11 @@ main{
     display: none;
 }
 
+/*Responsive Design for Blogs on Smartphones*/
+@media(max-width: 470px){
+
+}
+
 /*Responsive Design for Blogs on Tablets*/
 @media(max-width: 560px){
     
