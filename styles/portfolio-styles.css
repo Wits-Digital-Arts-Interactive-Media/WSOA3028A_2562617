@@ -319,9 +319,63 @@ textarea {
 
 /*Responsive Design for the Portfolio on Smartphones*/
 @media(max-width: 560px){
+    
+    .sub-heading2{
+        margin-left: 140px;
+    }
+    
     .art{
         display: block;
-        margin-left: -25px;
+    }
+
+    .art2{
+        display: block;
+    }
+
+    .artwork{
+        margin-left: 35px;
+    }
+
+    .artwork2{
+       display: none;
+    }
+
+    .lefa1{
+        margin-left: -60px;
+    }
+    
+    .lefa2{
+        margin-left: -60px;
+    }
+
+    .read-more{
+        width: 70%;
+    }
+
+    .read-more-1{
+        width: 60%;
+    }
+
+    .digital-artwork1{
+        width: 100%;
+        height: 100%; 
+    }
+
+    .digital-artwork3{
+        width: 100%;
+        height: 100%;   
+    }
+
+    .digital-artwork4{
+         margin-left: -46px;
+    }
+
+    .read-more-2{
+        display: none;
+    }
+
+    .back-to-top{
+        display: none;
     }
 
     .video{
@@ -346,25 +400,27 @@ textarea {
         margin-left: 120px;
    }
 
-   .socials{
-     width: 25%;
-     margin-left: 10px;
-     margin-right: 10px;
+   .socials-images{
+     display: none;
    }
 
-   .socials-images{
-        display: none;
+   .socials-images2{
+    display: none;
    }
 
    .socials-images3{
         display: contents;
         gap: 10px;
     }
+
+    .game{
+        margin-left: -70px;
+    }
 }
 
 /*Responsive Design for the Portfolio on Smartphones & Tablets*/
 @media(max-width: 760px){
-   
+
 }
 
 /*Responsive Design for the Portfolio on Small Laptops*/
@@ -375,7 +431,6 @@ textarea {
     }
 
    .sub-heading2{
-    margin-left: 420px;
     padding-top: 10px;
    }
 
@@ -393,6 +448,10 @@ textarea {
     .game{
         width: 400px;
         height: 250px;
+    }
+
+    .g-art{
+        margin: 50px;
     }
 
     .video{
@@ -470,7 +529,7 @@ textarea {
 
     .anim-video{
         width: 85%;
-        margin-left: 80px;
+        margin-left: 50px;
     }
 
     .videos{
