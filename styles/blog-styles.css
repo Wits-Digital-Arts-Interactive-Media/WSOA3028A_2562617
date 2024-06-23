@@ -201,6 +201,10 @@ main{
     .artist{
     display: none;    
     }
+
+    .back-to-top{
+        display: none;
+    }
 }
 
 /*Responsive Design for Blogs on Tablets*/

@@ -1,5 +1,5 @@
 /* The three form factors that I have created responsiveness for are smartphones, tablets, and small laptops.
-   The sizes are: 457 x 815 for phones, 767 x 945 for tablets, and 1024 x 620 for small laptops.
+   The sizes are: 457 x 815 for phones, 757 x 945 for tablets, and 1024 x 620 for small laptops.
 */
 
 /*Scale for the homepage cards/images*/
@@ -135,6 +135,7 @@
         flex-direction: column;
         align-items: center;
         margin-top: 70px;
+        padding-top: 0;
         margin-bottom: 20px;
         font-size: 16px;
         gap: 5px; 

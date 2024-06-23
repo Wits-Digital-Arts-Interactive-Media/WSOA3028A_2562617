@@ -262,8 +262,12 @@
         font-weight: bold;
     }
 
-    .h-entry{
-        width: 220px;
+   .h-entry{
+    width: 80%;
+   }
+
+   .font-image2{
+    margin-left: 70px;
     }
 }
 
@@ -276,10 +280,6 @@
 
     .font-image{
         margin-left: -15px;
-    }
-
-    .font-image2{
-        margin-left: 170px;
     }
 
     .font-images{
