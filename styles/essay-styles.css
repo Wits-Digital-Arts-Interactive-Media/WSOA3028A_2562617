@@ -133,12 +133,11 @@ h2{
 @media(max-width: 560px){
 
     .essay-wrap{
-        width: 85%;
+        width: 90%;
     }
 
     .page1, .page2{
-        width: 250px;
-        margin-left: -45px;
+        margin-left: -15px;
     }
 
     .essay-references{
@@ -146,7 +145,7 @@ h2{
     }
 
     .sub-nav{
-        margin-left: -90px;
+        margin-left: -25px;
     }
 }
 

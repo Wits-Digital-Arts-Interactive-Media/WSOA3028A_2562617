@@ -76,14 +76,22 @@
     .center {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
+
+    .center{
+        display: block;
+    }
     
     .center2 {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
 
+    .center2{
+        display: block;
+    }
+
     .logo{
         font-size: 35px;
-        margin-left: 40px;    
+        text-align: center;
     }
 
     /*Change the layout of the elements in this class*/
@@ -111,7 +119,7 @@
 
     header{
         justify-content: center;
-        height: 280px;
+        padding-bottom: 250px;
     }
 
     .main-nav ul{
@@ -127,7 +135,7 @@
         width: 25%; 
         text-align: center;
         margin-bottom: 5px;
-        margin-left: 360px;
+        margin-left: 280px;
     }
 }
 

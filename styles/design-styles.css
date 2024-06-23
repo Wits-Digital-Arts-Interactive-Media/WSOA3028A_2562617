@@ -289,6 +289,14 @@
     .top4{
         display: none;
     }
+    
+    .wireframes{
+        margin-left: 50px;
+    }
+
+    .top3{
+        display: none;
+    }
 }
 
 /*Scale down the images and the "Back To Top" buttons for Small Laptops*/
@@ -309,7 +317,6 @@
    }
 
    .font-image2{
-    margin-left: 300px;
     margin-bottom: -50px;
    }
 
@@ -322,7 +329,8 @@
    }
 
    .description{
-    margin-left: -25px;
+    margin-left: -45px;
+    width: 105%;
     }
 
     .responsive2 img{
