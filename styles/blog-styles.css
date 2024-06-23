@@ -137,14 +137,20 @@ main{
 
 .resize1{
     width: 30%;
-    height: 50%;
+    height: 30%;
     padding-bottom: 10px;
 }
 
 .resize2{
     padding-left: 20px;
-    height: 50%; 
-    width: 68%;
+    width: 100%;
+    height: 100%
+}
+
+.resize3{
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 100%;
 }
 
 /*Styling for the reading progress bar*/
@@ -197,11 +203,11 @@ main{
     }
 }
 
-/*Responsive Design for Blogs on Smartphones & Tablets*/
+/*Responsive Design for Blogs on Tablets*/
 @media(max-width: 760px){
     
-    .back-to-top{
-        display: none;
+    .references{
+        width: 111.5%;
     }
 }
 
@@ -229,6 +235,10 @@ main{
 
     .resize2{
         width: 66%;
+    }
+
+    .resize3{
+        margin-left: -15px;
     }
 
     .responsive img{

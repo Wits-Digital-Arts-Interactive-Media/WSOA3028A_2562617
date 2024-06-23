@@ -217,6 +217,10 @@
         margin-left: 15px;
     }
 
+    .google-image{
+        display: none;
+    }
+
     .responsive img{
         width: 100%;
         height: 100%;
@@ -263,18 +267,19 @@
     }
 }
 
-/*Responsive Design for Smartphones & Tablets*/
+/*Responsive Design for Tablets*/
 @media(max-width: 760px){
-    .h-entry{
-        width: 330px;
-    }
 
     .top2{
         display: none;
     }
 
-    .google-image{
-        display: none;
+    .font-image{
+        margin-left: -15px;
+    }
+
+    .font-image2{
+        margin-left: 170px;
     }
 
     .font-images{

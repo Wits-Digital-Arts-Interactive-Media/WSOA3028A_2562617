@@ -413,14 +413,39 @@ textarea {
         gap: 10px;
     }
 
+    .socials-images4{
+        display: contents;
+        gap: 10px;
+    }
+
     .game{
         margin-left: -70px;
     }
 }
 
-/*Responsive Design for the Portfolio on Smartphones & Tablets*/
+/*Responsive Design for the Portfolio on Tablets*/
 @media(max-width: 760px){
+    
+    .socials-images{
+        display: none;
+      }
 
+      .socials-images3{
+        display: contents;
+        gap: 10px;
+    }
+
+    .socials-images4{
+        display: none;
+    }
+
+    .contact{
+    width: 100%;    
+    }
+
+    .back-to-top{
+        display: none;
+    }
 }
 
 /*Responsive Design for the Portfolio on Small Laptops*/
@@ -466,6 +491,10 @@ textarea {
     .socials-images{
         flex-direction: row;
         margin-left: 80px;
+    }
+
+    .socials-images4{
+        display: none;
     }
 
     .contact{

@@ -62,11 +62,20 @@
     }
 }
 
-/*Responsive Design for Smartphones & Tablets*/
+/*Responsive Design for Tablets*/
 @media (max-width: 760px) {
 
     html{
         font-size: smaller;
+    }
+
+    header{
+        justify-content: center;
+        padding-bottom: 80px;
+    }
+
+    .main-nav ul{
+        padding-top: 50px;
     }
 
     .cards {
